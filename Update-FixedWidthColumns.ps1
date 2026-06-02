@@ -18,6 +18,8 @@ extra spaces immediately before it. All first-file repairs are completed before
 columns 7 and 8 are updated.
 If a first-file row cannot be safely repaired, the script stops before writing
 output unless -AllowUnrepairableFirstRows is supplied.
+Progress bars are shown while rows are repaired, updated, and written. Use
+-NoProgress to suppress them.
 
 .EXAMPLE
 .\Update-FixedWidthColumns.ps1 `
@@ -67,6 +69,8 @@ param(
     [switch]$TruncateValues,
 
     [switch]$AllowUnrepairableFirstRows,
+
+    [switch]$NoProgress,
 
     [switch]$CreateBackup,
 
@@ -145,6 +149,75 @@ function Get-TotalWidth {
     }
 
     return $total
+}
+
+function Write-RowProgress {
+    param(
+        [Parameter(Mandatory = $true)]
+        [string]$Activity,
+
+        [Parameter(Mandatory = $true)]
+        [string]$Phase,
+
+        [Parameter(Mandatory = $true)]
+        [int]$CurrentRow,
+
+        [Parameter(Mandatory = $true)]
+        [int]$TotalRows,
+
+        [Parameter(Mandatory = $true)]
+        [int]$Id
+    )
+
+    if ($NoProgress -or $TotalRows -le 0) {
+        return
+    }
+
+    $interval = [Math]::Max(1, [Math]::Floor($TotalRows / 100))
+    if ($CurrentRow -ne 1 -and $CurrentRow -ne $TotalRows -and ($CurrentRow % $interval) -ne 0) {
+        return
+    }
+
+    $percentComplete = [Math]::Min(100, [Math]::Floor(($CurrentRow / [double]$TotalRows) * 100))
+    Write-Progress -Id $Id -Activity $Activity -Status "$Phase row $CurrentRow of $TotalRows" -PercentComplete $percentComplete
+}
+
+function Write-StepProgress {
+    param(
+        [Parameter(Mandatory = $true)]
+        [string]$Activity,
+
+        [Parameter(Mandatory = $true)]
+        [string]$Status,
+
+        [Parameter(Mandatory = $true)]
+        [int]$PercentComplete,
+
+        [Parameter(Mandatory = $true)]
+        [int]$Id
+    )
+
+    if ($NoProgress) {
+        return
+    }
+
+    Write-Progress -Id $Id -Activity $Activity -Status $Status -PercentComplete $PercentComplete
+}
+
+function Complete-Progress {
+    param(
+        [Parameter(Mandatory = $true)]
+        [string]$Activity,
+
+        [Parameter(Mandatory = $true)]
+        [int]$Id
+    )
+
+    if ($NoProgress) {
+        return
+    }
+
+    Write-Progress -Id $Id -Activity $Activity -Completed
 }
 
 function Get-ColumnStart {
@@ -341,7 +414,13 @@ function Repair-FixedWidthLines {
         [string[]]$Lines,
 
         [Parameter(Mandatory = $true)]
-        [hashtable]$Layout
+        [hashtable]$Layout,
+
+        [Parameter(Mandatory = $true)]
+        [string]$Activity,
+
+        [Parameter(Mandatory = $true)]
+        [int]$ProgressId
     )
 
     $repairedLines = New-Object System.Collections.Generic.List[string]
@@ -361,6 +440,7 @@ function Repair-FixedWidthLines {
         }
 
         $repairedLines.Add($line)
+        Write-RowProgress -Activity $Activity -Phase "Repairing row spacing" -CurrentRow $lineNumber -TotalRows $Lines.Count -Id $ProgressId
     }
 
     return [pscustomobject]@{
@@ -375,7 +455,13 @@ function Update-FixedWidthLines {
         [string[]]$Lines,
 
         [Parameter(Mandatory = $true)]
-        [hashtable]$Layout
+        [hashtable]$Layout,
+
+        [Parameter(Mandatory = $true)]
+        [string]$Activity,
+
+        [Parameter(Mandatory = $true)]
+        [int]$ProgressId
     )
 
     $updatedLines = New-Object System.Collections.Generic.List[string]
@@ -383,6 +469,7 @@ function Update-FixedWidthLines {
     for ($index = 0; $index -lt $Lines.Count; $index++) {
         $lineNumber = $index + 1
         $updatedLines.Add((Set-FixedWidthColumns -Line $Lines[$index] -Layout $Layout -LineNumber $lineNumber))
+        Write-RowProgress -Activity $Activity -Phase "Updating columns 7 and 8" -CurrentRow $lineNumber -TotalRows $Lines.Count -Id $ProgressId
     }
 
     return [string[]]$updatedLines.ToArray()
@@ -400,7 +487,10 @@ function Update-FixedWidthFile {
         [hashtable]$Layout,
 
         [Parameter(Mandatory = $true)]
-        [System.Text.Encoding]$TextEncoding
+        [System.Text.Encoding]$TextEncoding,
+
+        [Parameter(Mandatory = $true)]
+        [int]$ProgressId
     )
 
     $inputFullPath = (Resolve-Path -LiteralPath $InputPath).Path
@@ -411,17 +501,33 @@ function Update-FixedWidthFile {
         New-Item -Path $outputDirectory -ItemType Directory -Force | Out-Null
     }
 
+    $activity = "Processing $($Layout.Name)"
+    Write-StepProgress -Activity $activity -Status "Reading input file" -PercentComplete 0 -Id $ProgressId
     $lines = [System.IO.File]::ReadAllLines($inputFullPath, $TextEncoding)
-    $repairResult = Repair-FixedWidthLines -Lines $lines -Layout $Layout
-    $updatedLines = Update-FixedWidthLines -Lines ([string[]]$repairResult.Lines) -Layout $Layout
+
+    if ($Layout.RepairColumn3) {
+        $repairResult = Repair-FixedWidthLines -Lines $lines -Layout $Layout -Activity $activity -ProgressId $ProgressId
+    }
+    else {
+        $repairResult = [pscustomobject]@{
+            Lines        = $lines
+            RepairedRows = 0
+        }
+    }
+
+    $updatedLines = Update-FixedWidthLines -Lines ([string[]]$repairResult.Lines) -Layout $Layout -Activity $activity -ProgressId $ProgressId
 
     if ($PSCmdlet.ShouldProcess($outputFullPath, "write updated fixed-width file")) {
+        Write-StepProgress -Activity $activity -Status "Writing output file" -PercentComplete 100 -Id $ProgressId
+
         if ($CreateBackup -and ($inputFullPath -eq $outputFullPath)) {
             Copy-Item -LiteralPath $inputFullPath -Destination "$inputFullPath.bak" -Force
         }
 
         [System.IO.File]::WriteAllLines($outputFullPath, $updatedLines, $TextEncoding)
     }
+
+    Complete-Progress -Activity $activity -Id $ProgressId
 
     return [pscustomobject]@{
         File          = $outputFullPath
@@ -451,8 +557,8 @@ else {
 
 $textEncoding = Get-TextEncoding -Name $Encoding
 
-$firstResult = Update-FixedWidthFile -InputPath $FirstFilePath -OutputPath $FirstOutputPath -Layout $FirstLayout -TextEncoding $textEncoding
-$secondResult = Update-FixedWidthFile -InputPath $SecondFilePath -OutputPath $SecondOutputPath -Layout $SecondLayout -TextEncoding $textEncoding
+$firstResult = Update-FixedWidthFile -InputPath $FirstFilePath -OutputPath $FirstOutputPath -Layout $FirstLayout -TextEncoding $textEncoding -ProgressId 1
+$secondResult = Update-FixedWidthFile -InputPath $SecondFilePath -OutputPath $SecondOutputPath -Layout $SecondLayout -TextEncoding $textEncoding -ProgressId 2
 
 $firstResult
 $secondResult
