@@ -5,7 +5,7 @@ Updates columns 7 and 8 in two fixed-width text files.
 .DESCRIPTION
 Uses the fixed-width layouts below:
 
-1st file: 13, 14, 22, 13, 9, 19, 9, 10
+1st file: 13, 16, 26, 12, 8, 16, 10, 12
 2nd file: 26, 13, 9, 12, 8, 26, 10, 12
 
 The same two values are applied to columns 7 and 8 in both files. Values are
@@ -14,6 +14,7 @@ long for either file, the script stops unless -TruncateValues is supplied.
 
 For the first file only, the script also repairs rows where column 3 has extra
 spaces before column 4. Column 4 is identified by a "-" at its first character.
+All first-file repairs are completed before columns 7 and 8 are updated.
 
 .EXAMPLE
 .\Update-FixedWidthColumns.ps1 `
@@ -73,7 +74,7 @@ $ErrorActionPreference = "Stop"
 
 $FirstLayout = @{
     Name          = "1st file"
-    Widths        = @(13, 14, 22, 13, 9, 19, 9, 10)
+    Widths        = @(13, 16, 26, 12, 8, 16, 10, 12)
     RepairColumn3 = $true
 }
 
@@ -282,6 +283,59 @@ function Set-FixedWidthColumns {
     return $Line
 }
 
+function Repair-FixedWidthLines {
+    param(
+        [Parameter(Mandatory = $true)]
+        [string[]]$Lines,
+
+        [Parameter(Mandatory = $true)]
+        [hashtable]$Layout
+    )
+
+    $repairedLines = New-Object System.Collections.Generic.List[string]
+    $repairedCount = 0
+
+    for ($index = 0; $index -lt $Lines.Count; $index++) {
+        $lineNumber = $index + 1
+        $line = $Lines[$index]
+
+        if ($Layout.RepairColumn3) {
+            $repairResult = Repair-FirstFileColumn3 -Line $line -Widths ([int[]]$Layout.Widths) -LineNumber $lineNumber
+            $line = $repairResult.Line
+
+            if ($repairResult.Repaired) {
+                $repairedCount++
+            }
+        }
+
+        $repairedLines.Add($line)
+    }
+
+    return [pscustomobject]@{
+        Lines        = [string[]]$repairedLines.ToArray()
+        RepairedRows = $repairedCount
+    }
+}
+
+function Update-FixedWidthLines {
+    param(
+        [Parameter(Mandatory = $true)]
+        [string[]]$Lines,
+
+        [Parameter(Mandatory = $true)]
+        [hashtable]$Layout
+    )
+
+    $updatedLines = New-Object System.Collections.Generic.List[string]
+
+    for ($index = 0; $index -lt $Lines.Count; $index++) {
+        $lineNumber = $index + 1
+        $updatedLines.Add((Set-FixedWidthColumns -Line $Lines[$index] -Layout $Layout -LineNumber $lineNumber))
+    }
+
+    return [string[]]$updatedLines.ToArray()
+}
+
 function Update-FixedWidthFile {
     param(
         [Parameter(Mandatory = $true)]
@@ -306,24 +360,8 @@ function Update-FixedWidthFile {
     }
 
     $lines = [System.IO.File]::ReadAllLines($inputFullPath, $TextEncoding)
-    $updatedLines = New-Object System.Collections.Generic.List[string]
-    $repairedCount = 0
-
-    for ($index = 0; $index -lt $lines.Count; $index++) {
-        $lineNumber = $index + 1
-        $line = $lines[$index]
-
-        if ($Layout.RepairColumn3) {
-            $repairResult = Repair-FirstFileColumn3 -Line $line -Widths ([int[]]$Layout.Widths) -LineNumber $lineNumber
-            $line = $repairResult.Line
-
-            if ($repairResult.Repaired) {
-                $repairedCount++
-            }
-        }
-
-        $updatedLines.Add((Set-FixedWidthColumns -Line $line -Layout $Layout -LineNumber $lineNumber))
-    }
+    $repairResult = Repair-FixedWidthLines -Lines $lines -Layout $Layout
+    $updatedLines = Update-FixedWidthLines -Lines ([string[]]$repairResult.Lines) -Layout $Layout
 
     if ($PSCmdlet.ShouldProcess($outputFullPath, "write updated fixed-width file")) {
         if ($CreateBackup -and ($inputFullPath -eq $outputFullPath)) {
@@ -336,7 +374,7 @@ function Update-FixedWidthFile {
     return [pscustomobject]@{
         File          = $outputFullPath
         Rows          = $lines.Count
-        RepairedRows  = $repairedCount
+        RepairedRows  = $repairResult.RepairedRows
         UpdatedInFile = $inputFullPath -eq $outputFullPath
     }
 }
