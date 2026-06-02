@@ -227,7 +227,12 @@ function Repair-FirstFileColumn3 {
             continue
         }
 
-        $charactersToRemove = $Line.Substring($column4Start, $candidatePosition - $column4Start)
+        $removeStart = $candidatePosition - $excessLength
+        if ($removeStart -lt 0) {
+            continue
+        }
+
+        $charactersToRemove = $Line.Substring($removeStart, $excessLength)
         if ($charactersToRemove -match "^\s+$") {
             $actualColumn4Start = $candidatePosition
             break
@@ -254,7 +259,8 @@ function Repair-FirstFileColumn3 {
         }
     }
 
-    $charactersToRemove = $Line.Substring($column4Start, $actualColumn4Start - $column4Start)
+    $removeStart = $actualColumn4Start - $excessLength
+    $charactersToRemove = $Line.Substring($removeStart, $excessLength)
     if ($charactersToRemove -notmatch "^\s+$") {
         $message = "1st file line ${LineNumber}: row is $excessLength characters too long, but the characters before the column 4 marker are not all whitespace."
         if (-not $AllowUnrepairableFirstRows) {
@@ -268,7 +274,7 @@ function Repair-FirstFileColumn3 {
         }
     }
 
-    $repairedLine = $Line.Substring(0, $column4Start) + $Line.Substring($actualColumn4Start)
+    $repairedLine = $Line.Substring(0, $removeStart) + $Line.Substring($actualColumn4Start)
     if ($repairedLine.Length -ne $totalWidth) {
         $message = "1st file line ${LineNumber}: repaired row length is $($repairedLine.Length), but expected $totalWidth."
         if (-not $AllowUnrepairableFirstRows) {
