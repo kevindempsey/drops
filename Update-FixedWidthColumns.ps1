@@ -216,14 +216,19 @@ function Repair-FirstFileColumn3 {
     $candidatePositions = New-Object System.Collections.Generic.List[int]
 
     for ($index = 1; $index -lt ($Line.Length - 1); $index++) {
-        if ($Line[$index] -eq "-" -and $Line[$index - 1] -eq " " -and $Line[$index + 1] -eq " ") {
+        if ($Line[$index] -eq "-" -and [char]::IsWhiteSpace($Line[$index - 1]) -and [char]::IsWhiteSpace($Line[$index + 1])) {
             $candidatePositions.Add($index)
         }
     }
 
     $actualColumn4Start = $null
     foreach ($candidatePosition in $candidatePositions) {
-        if (($candidatePosition - $excessLength) -eq $column4Start) {
+        if ($candidatePosition -le $column4Start) {
+            continue
+        }
+
+        $charactersToRemove = $Line.Substring($column4Start, $candidatePosition - $column4Start)
+        if ($charactersToRemove -match "^\s+$") {
             $actualColumn4Start = $candidatePosition
             break
         }
@@ -237,7 +242,7 @@ function Repair-FirstFileColumn3 {
             "none"
         }
 
-        $message = "1st file line ${LineNumber}: row is $excessLength characters too long, but no usable space-hyphen-space column 4 marker was found. Candidate marker positions: $candidateDisplay."
+        $message = "1st file line ${LineNumber}: row is $excessLength characters too long, but no usable whitespace-hyphen-whitespace column 4 marker was found after position $($column4Start + 1). Candidate marker positions: $candidateDisplay."
         if (-not $AllowUnrepairableFirstRows) {
             throw "$message The script stopped before updating columns 7 and 8."
         }
@@ -249,9 +254,9 @@ function Repair-FirstFileColumn3 {
         }
     }
 
-    $charactersToRemove = $Line.Substring($actualColumn4Start - $excessLength, $excessLength)
+    $charactersToRemove = $Line.Substring($column4Start, $actualColumn4Start - $column4Start)
     if ($charactersToRemove -notmatch "^\s+$") {
-        $message = "1st file line ${LineNumber}: row is $excessLength characters too long, but the characters before the column 4 marker are not all spaces."
+        $message = "1st file line ${LineNumber}: row is $excessLength characters too long, but the characters before the column 4 marker are not all whitespace."
         if (-not $AllowUnrepairableFirstRows) {
             throw "$message The script stopped before updating columns 7 and 8."
         }
@@ -263,7 +268,16 @@ function Repair-FirstFileColumn3 {
         }
     }
 
-    $repairedLine = $Line.Substring(0, $actualColumn4Start - $excessLength) + $Line.Substring($actualColumn4Start)
+    $repairedLine = $Line.Substring(0, $column4Start) + $Line.Substring($actualColumn4Start)
+    if ($repairedLine.Length -ne $totalWidth) {
+        $message = "1st file line ${LineNumber}: repaired row length is $($repairedLine.Length), but expected $totalWidth."
+        if (-not $AllowUnrepairableFirstRows) {
+            throw "$message The script stopped before updating columns 7 and 8."
+        }
+
+        Write-Warning "$message The row was repaired and columns 7 and 8 will be updated at the expected positions."
+    }
+
     return [pscustomobject]@{
         Line     = $repairedLine
         Repaired = $true
