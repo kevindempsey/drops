@@ -12,9 +12,12 @@ The same two values are applied to columns 7 and 8 in both files. Values are
 padded with spaces to fit each file's required column width. If a value is too
 long for either file, the script stops unless -TruncateValues is supplied.
 
-For the first file only, the script also repairs rows where column 3 has extra
-spaces before column 4. Column 4 is identified by a "-" at its first character.
-All first-file repairs are completed before columns 7 and 8 are updated.
+For the first file only, the script repairs rows longer than the expected 113
+characters by finding the " - " marker that starts column 4 and removing the
+extra spaces immediately before it. All first-file repairs are completed before
+columns 7 and 8 are updated.
+If a first-file row cannot be safely repaired, the script stops before writing
+output unless -AllowUnrepairableFirstRows is supplied.
 
 .EXAMPLE
 .\Update-FixedWidthColumns.ps1 `
@@ -62,6 +65,8 @@ param(
     [string]$SecondOutputPath,
 
     [switch]$TruncateValues,
+
+    [switch]$AllowUnrepairableFirstRows,
 
     [switch]$CreateBackup,
 
@@ -197,41 +202,68 @@ function Repair-FirstFileColumn3 {
         [int]$LineNumber
     )
 
+    $totalWidth = Get-TotalWidth -Widths $Widths
     $column4Start = Get-ColumnStart -Widths $Widths -Column 4
 
-    if ($Line.Length -le $column4Start) {
+    if ($Line.Length -le $totalWidth) {
         return [pscustomobject]@{
             Line     = $Line
             Repaired = $false
         }
     }
 
-    if ($Line[$column4Start] -eq "-") {
+    $excessLength = $Line.Length - $totalWidth
+    $candidatePositions = New-Object System.Collections.Generic.List[int]
+
+    for ($index = 1; $index -lt ($Line.Length - 1); $index++) {
+        if ($Line[$index] -eq "-" -and $Line[$index - 1] -eq " " -and $Line[$index + 1] -eq " ") {
+            $candidatePositions.Add($index)
+        }
+    }
+
+    $actualColumn4Start = $null
+    foreach ($candidatePosition in $candidatePositions) {
+        if (($candidatePosition - $excessLength) -eq $column4Start) {
+            $actualColumn4Start = $candidatePosition
+            break
+        }
+    }
+
+    if ($null -eq $actualColumn4Start) {
+        $candidateDisplay = if ($candidatePositions.Count -gt 0) {
+            (($candidatePositions | ForEach-Object { $_ + 1 }) -join ", ")
+        }
+        else {
+            "none"
+        }
+
+        $message = "1st file line ${LineNumber}: row is $excessLength characters too long, but no usable space-hyphen-space column 4 marker was found. Candidate marker positions: $candidateDisplay."
+        if (-not $AllowUnrepairableFirstRows) {
+            throw "$message The script stopped before updating columns 7 and 8."
+        }
+
+        Write-Warning "$message The row was left at its current length before updating columns 7 and 8."
         return [pscustomobject]@{
             Line     = $Line
             Repaired = $false
         }
     }
 
-    $actualColumn4Start = $Line.IndexOf("-", $column4Start)
-    if ($actualColumn4Start -le $column4Start) {
-        Write-Warning "1st file line ${LineNumber}: expected column 4 to start with '-' at position $($column4Start + 1), but no later '-' was found. The row was left at its current length before updating columns 7 and 8."
+    $charactersToRemove = $Line.Substring($actualColumn4Start - $excessLength, $excessLength)
+    if ($charactersToRemove -notmatch "^\s+$") {
+        $message = "1st file line ${LineNumber}: row is $excessLength characters too long, but the characters before the column 4 marker are not all spaces."
+        if (-not $AllowUnrepairableFirstRows) {
+            throw "$message The script stopped before updating columns 7 and 8."
+        }
+
+        Write-Warning "$message The row was left at its current length before updating columns 7 and 8."
         return [pscustomobject]@{
             Line     = $Line
             Repaired = $false
         }
     }
 
-    $extraCharacters = $Line.Substring($column4Start, $actualColumn4Start - $column4Start)
-    if ($extraCharacters -notmatch "^\s+$") {
-        Write-Warning "1st file line ${LineNumber}: found '-' at position $($actualColumn4Start + 1), but the characters before it were not only spaces. The row was left at its current length before updating columns 7 and 8."
-        return [pscustomobject]@{
-            Line     = $Line
-            Repaired = $false
-        }
-    }
-
-    $repairedLine = $Line.Substring(0, $column4Start) + $Line.Substring($actualColumn4Start)
+    $repairedLine = $Line.Substring(0, $actualColumn4Start - $excessLength) + $Line.Substring($actualColumn4Start)
     return [pscustomobject]@{
         Line     = $repairedLine
         Repaired = $true
