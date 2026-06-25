@@ -1,0 +1,993 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<InsertArrangements>
+  <Insert_arrangement name="8-2" shell="8" arrangement="-2" supersedes="MS33708-2">
+    <Contact_id name="A" Xi="+.059" Yi=".000" Xm="+1.50" Ym="0.00" size="20" service_rating="I" />
+    <Contact_id name="B" Xi="-.059" Yi=".000" Xm="-1.50" Ym="0.00" size="20" service_rating="I" />
+  </Insert_arrangement>
+  <Insert_arrangement name="8-3" shell="8" arrangement="-3" supersedes="MS33708-3">
+    <Contact_id name="A" Xi="+.056" Yi="+.018" Xm="+1.42" Ym="+0.46" size="20" service_rating="I" />
+    <Contact_id name="B" Xi="-.079" Yi=".000" Xm="-2.01" Ym="0.00" size="20" service_rating="I" />
+    <Contact_id name="C" Xi="-.056" Yi="+.018" Xm="-1.42" Ym="+0.46" size="20" service_rating="I" />
+  </Insert_arrangement>
+  <Insert_arrangement name="8-4" shell="8" arrangement="-4" supersedes="MS33708-4">
+    <Contact_id name="A" Xi="-.056" Yi="+.056" Xm="-1.42" Ym="+1.42" size="20" service_rating="I" />
+    <Contact_id name="B" Xi="-.056" Yi="-.056" Xm="-1.42" Ym="-1.42" size="20" service_rating="I" />
+    <Contact_id name="C" Xi="+.056" Yi="-.056" Xm="+1.42" Ym="-1.42" size="20" service_rating="I" />
+    <Contact_id name="D" Xi="+.056" Yi="+.056" Xm="+1.42" Ym="+1.42" size="20" service_rating="I" />
+  </Insert_arrangement>
+  <Insert_arrangement name="8-33" shell="8" arrangement="-33" supersedes="MS33708-33">
+    <Contact_id name="A" Xi=".000" Yi="+.075" Xm="0.00" Ym="+1.90" size="20" service_rating="I" />
+    <Contact_id name="B" Xi="+.065" Yi="-.038" Xm="+1.65" Ym="-0.97" size="20" service_rating="I" />
+    <Contact_id name="C" Xi="-.065" Yi="-.038" Xm="-1.65" Ym="-0.97" size="20" service_rating="I" />
+  </Insert_arrangement>
+  <Insert_arrangement name="8-98" shell="8" arrangement="-98" supersedes="MS33701-98">
+    <Contact_id name="A" Xi="+.065" Yi="+.037" Xm="+1.65" Ym="+0.94" size="20" service_rating="I" />
+    <Contact_id name="B" Xi=".000" Yi="-.075" Xm="0.00" Ym="-1.90" size="20" service_rating="I" />
+    <Contact_id name="C" Xi="-.065" Yi="+.037" Xm="-1.65" Ym="+0.94" size="20" service_rating="I" />
+  </Insert_arrangement>
+  <Insert_arrangement name="10-6" shell="10" arrangement="-6" supersedes="MS33709-6">
+    <Contact_id name="A" Xi=".000" Yi="+.130" Xm="0.00" Ym="+3.30" size="20" service_rating="I" />
+    <Contact_id name="B" Xi="+.113" Yi="+.065" Xm="+2.87" Ym="+1.65" size="20" service_rating="I" />
+    <Contact_id name="C" Xi="+.113" Yi="-.065" Xm="+2.87" Ym="-1.65" size="20" service_rating="I" />
+    <Contact_id name="D" Xi=".000" Yi="-.130" Xm="0.00" Ym="-3.30" size="20" service_rating="I" />
+    <Contact_id name="E" Xi="-.113" Yi="-.065" Xm="-2.87" Ym="-1.65" size="20" service_rating="I" />
+    <Contact_id name="F" Xi="-.113" Yi="+.065" Xm="-2.87" Ym="+1.65" size="20" service_rating="I" />
+  </Insert_arrangement>
+  <Insert_arrangement name="10-98" shell="10" arrangement="-98" supersedes="MS33709-98">
+    <Contact_id name="A" Xi=".000" Yi="+.130" Xm="0.00" Ym="+3.30" size="20" service_rating="I" />
+    <Contact_id name="B" Xi="+.130" Yi=".000" Xm="+3.30" Ym="0.00" size="20" service_rating="I" />
+    <Contact_id name="C" Xi="+.065" Yi="-.113" Xm="+1.65" Ym="-2.87" size="20" service_rating="I" />
+    <Contact_id name="D" Xi="-.065" Yi="-.113" Xm="-1.65" Ym="-2.87" size="20" service_rating="I" />
+    <Contact_id name="E" Xi="-.130" Yi=".000" Xm="-3.30" Ym="0.00" size="20" service_rating="I" />
+    <Contact_id name="F" Xi=".000" Yi=".000" Xm="0.00" Ym="0.00" size="20" service_rating="I" />
+  </Insert_arrangement>
+  <Insert_arrangement name="12-3" shell="12" arrangement="-3" supersedes="MS33710-3">
+    <Contact_id name="A" Xi="+.094" Yi="+.058" Xm="+2.39" Ym="+1.47" size="16" service_rating="II" />
+    <Contact_id name="B" Xi=".000" Yi="-.111" Xm="0.00" Ym="-2.82" size="16" service_rating="II" />
+    <Contact_id name="C" Xi="-.094" Yi="+.058" Xm="-2.39" Ym="+1.47" size="16" service_rating="II" />
+  </Insert_arrangement>
+  <Insert_arrangement name="12-8" shell="12" arrangement="-8" supersedes="MS33710-8 MS27727-8">
+    <Contact_id name="A" Xi="+.065" Yi="+.157" Xm="+1.65" Ym="+3.99" size="20" service_rating="I" />
+    <Contact_id name="B" Xi="+.170" Yi=".000" Xm="+4.32" Ym="0.00" size="20" service_rating="I" />
+    <Contact_id name="C" Xi="+.120" Yi="-.120" Xm="+3.05" Ym="-3.05" size="20" service_rating="I" />
+    <Contact_id name="D" Xi=".000" Yi="-.170" Xm="0.00" Ym="-4.32" size="20" service_rating="I" />
+    <Contact_id name="E" Xi="-.120" Yi="-.120" Xm="-3.05" Ym="-3.05" size="20" service_rating="I" />
+    <Contact_id name="F" Xi="-.170" Yi=".000" Xm="-4.32" Ym="0.00" size="20" service_rating="I" />
+    <Contact_id name="G" Xi="-.065" Yi="+.157" Xm="-1.65" Ym="+3.99" size="20" service_rating="I" />
+    <Contact_id name="H" Xi=".000" Yi="+.044" Xm="0.00" Ym="+1.12" size="20" service_rating="I" />
+  </Insert_arrangement>
+  <Insert_arrangement name="12-10" shell="12" arrangement="-10" supersedes="MS33710-10">
+    <Contact_id name="A" Xi=".000" Yi="+.120" Xm="0.00" Ym="+3.05" size="20" service_rating="I" />
+    <Contact_id name="B" Xi="+.130" Yi="+.120" Xm="+3.30" Ym="+3.05" size="20" service_rating="I" />
+    <Contact_id name="C" Xi="+.195" Yi=".000" Xm="+4.95" Ym="0.00" size="20" service_rating="I" />
+    <Contact_id name="D" Xi="+.130" Yi="-.120" Xm="+3.30" Ym="-3.05" size="20" service_rating="I" />
+    <Contact_id name="E" Xi=".000" Yi="-.120" Xm="0.00" Ym="-3.05" size="20" service_rating="I" />
+    <Contact_id name="F" Xi="-.130" Yi="-.120" Xm="-3.30" Ym="-3.05" size="20" service_rating="I" />
+    <Contact_id name="G" Xi="-.195" Yi=".000" Xm="-4.95" Ym="0.00" size="20" service_rating="I" />
+    <Contact_id name="H" Xi="-.130" Yi="+.120" Xm="-3.30" Ym="+3.05" size="20" service_rating="I" />
+    <Contact_id name="J" Xi="+.065" Yi=".000" Xm="+1.65" Ym="0.00" size="20" service_rating="I" />
+    <Contact_id name="K" Xi="-.065" Yi=".000" Xm="-1.65" Ym="0.00" size="20" service_rating="I" />
+  </Insert_arrangement>
+  <Insert_arrangement name="14-4" shell="14" arrangement="-4" supersedes="MS33711-4">
+    <Contact_id name="A" Xi=".000" Yi="+.169" Xm="0.00" Ym="+4.29" size="12 Power" service_rating="I" />
+    <Contact_id name="B" Xi="+.169" Yi=".000" Xm="+4.29" Ym="0.00" size="12 Power" service_rating="I" />
+    <Contact_id name="C" Xi=".000" Yi="-.169" Xm="0.00" Ym="-4.29" size="12 Power" service_rating="I" />
+    <Contact_id name="D" Xi="-.169" Yi=".000" Xm="-4.29" Ym="0.00" size="12 Power" service_rating="I" />
+  </Insert_arrangement>
+  <Insert_arrangement name="14-5" shell="14" arrangement="-5" supersedes="MS33711-5">
+    <Contact_id name="A" Xi=".000" Yi="+.100" Xm="0.00" Ym="+2.54" size="16" service_rating="II" />
+    <Contact_id name="B" Xi="+.174" Yi="+.024" Xm="+4.42" Ym="+0.61" size="16" service_rating="II" />
+    <Contact_id name="C" Xi="+.094" Yi="-.148" Xm="+2.39" Ym="-3.76" size="16" service_rating="II" />
+    <Contact_id name="D" Xi="-.094" Yi="-.148" Xm="-2.39" Ym="-3.76" size="16" service_rating="II" />
+    <Contact_id name="E" Xi="-.174" Yi="+.024" Xm="-4.42" Ym="+0.61" size="16" service_rating="II" />
+  </Insert_arrangement>
+  <Insert_arrangement name="14-9" shell="14" arrangement="-9" supersedes="MS33711-9">
+    <Contact_id name="A" Xi=".000" Yi="+.260" Xm="0.00" Ym="+6.60" size="20" service_rating="I" />
+    <Contact_id name="B" Xi="+.141" Yi="+.151" Xm="+3.58" Ym="+3.83" size="12 power" service_rating="I" />
+    <Contact_id name="C" Xi="+.255" Yi="+.014" Xm="+6.48" Ym="+0.36" size="20" service_rating="I" />
+    <Contact_id name="D" Xi="+.125" Yi="-.124" Xm="+3.18" Ym="-3.15" size="12 power" service_rating="I" />
+    <Contact_id name="E" Xi=".000" Yi="-.253" Xm="0.00" Ym="-6.43" size="20" service_rating="I" />
+    <Contact_id name="F" Xi="-.125" Yi="-.124" Xm="-3.18" Ym="-3.15" size="12 power" service_rating="I" />
+    <Contact_id name="G" Xi="-.255" Yi="+.014" Xm="-6.48" Ym="+0.36" size="20" service_rating="I" />
+    <Contact_id name="H" Xi="-.141" Yi="+.151" Xm="-3.58" Ym="+3.83" size="12 power" service_rating="I" />
+    <Contact_id name="J" Xi=".000" Yi="+.042" Xm="0.00" Ym="+1.07" size="20" service_rating="I" />
+  </Insert_arrangement>
+  <Insert_arrangement name="14-12" shell="14" arrangement="-12" supersedes="MS33711-12">
+    <Contact_id name="A" Xi="+.065" Yi="+.243" Xm="+1.65" Ym="+6.17" size="20" service_rating="I" />
+    <Contact_id name="B" Xi="+.178" Yi="+.178" Xm="+4.52" Ym="+4.52" size="20" service_rating="I" />
+    <Contact_id name="C" Xi="+.178" Yi="-.178" Xm="+4.52" Ym="-4.52" size="20" service_rating="I" />
+    <Contact_id name="D" Xi="+.065" Yi="-.243" Xm="+1.65" Ym="-6.17" size="20" service_rating="I" />
+    <Contact_id name="E" Xi="-.065" Yi="-.243" Xm="-1.65" Ym="-6.17" size="20" service_rating="I" />
+    <Contact_id name="F" Xi="-.178" Yi="-.178" Xm="-4.52" Ym="-4.52" size="20" service_rating="I" />
+    <Contact_id name="G" Xi="-.178" Yi="+.178" Xm="-4.52" Ym="+4.52" size="20" service_rating="I" />
+    <Contact_id name="H" Xi="-.065" Yi="+.243" Xm="-1.65" Ym="+6.17" size="20" service_rating="I" />
+    <Contact_id name="J" Xi=".000" Yi="+.094" Xm="0.00" Ym="+2.39" size="16" service_rating="I" />
+    <Contact_id name="K" Xi="+.162" Yi=".000" Xm="+4.11" Ym="0.00" size="16" service_rating="I" />
+    <Contact_id name="L" Xi=".000" Yi="-.094" Xm="0.00" Ym="-2.39" size="16" service_rating="I" />
+    <Contact_id name="M" Xi="-.162" Yi=".000" Xm="-4.11" Ym="0.00" size="16" service_rating="I" />
+  </Insert_arrangement>
+  <Insert_arrangement name="14-15" shell="14" arrangement="-15" supersedes="MS33711-15">
+    <Contact_id name="A" Xi="+.100" Yi="+.225" Xm="+2.54" Ym="+5.71" size="20" service_rating="I" />
+    <Contact_id name="B" Xi="+.202" Yi="+.140" Xm="+5.13" Ym="+3.56" size="20" service_rating="I" />
+    <Contact_id name="C" Xi="+.244" Yi="+.014" Xm="+6.20" Ym="+0.36" size="20" service_rating="I" />
+    <Contact_id name="D" Xi="+.218" Yi="-.113" Xm="+5.54" Ym="-2.87" size="20" service_rating="I" />
+    <Contact_id name="E" Xi="+.126" Yi="-.209" Xm="+3.20" Ym="-5.31" size="20" service_rating="I" />
+    <Contact_id name="F" Xi=".000" Yi="-.245" Xm="0.00" Ym="-6.22" size="20" service_rating="I" />
+    <Contact_id name="G" Xi="-.126" Yi="-.209" Xm="-3.20" Ym="-5.31" size="20" service_rating="I" />
+    <Contact_id name="H" Xi="-.218" Yi="-.113" Xm="-5.54" Ym="-2.87" size="20" service_rating="I" />
+    <Contact_id name="J" Xi="-.244" Yi="+.014" Xm="-6.20" Ym="+0.36" size="20" service_rating="I" />
+    <Contact_id name="K" Xi="-.202" Yi="+.140" Xm="-5.13" Ym="+3.56" size="20" service_rating="I" />
+    <Contact_id name="L" Xi="-.100" Yi="+.225" Xm="-2.54" Ym="+5.71" size="20" service_rating="I" />
+    <Contact_id name="M" Xi=".000" Yi="+.140" Xm="0.00" Ym="+3.56" size="20" service_rating="I" />
+    <Contact_id name="N" Xi="+.110" Yi="+.040" Xm="+2.79" Ym="+1.02" size="20" service_rating="I" />
+    <Contact_id name="P" Xi=".000" Yi="-.077" Xm="0.00" Ym="-1.96" size="16" service_rating="I" />
+    <Contact_id name="R" Xi="-.110" Yi="+.040" Xm="-2.79" Ym="+1.02" size="20" service_rating="I" />
+  </Insert_arrangement>
+  <Insert_arrangement name="14-18" shell="14" arrangement="-18" supersedes="MS33711-18 MS27728-18">
+    <Contact_id name="A" Xi="+.065" Yi="+.252" Xm="+1.65" Ym="+6.40" size="20" service_rating="I" />
+    <Contact_id name="B" Xi="+.195" Yi="+.113" Xm="+4.95" Ym="+2.87" size="20" service_rating="I" />
+    <Contact_id name="C" Xi="+.260" Yi=".000" Xm="+6.60" Ym="0.00" size="20" service_rating="I" />
+    <Contact_id name="D" Xi="+.195" Yi="-.113" Xm="+4.95" Ym="-2.87" size="20" service_rating="I" />
+    <Contact_id name="E" Xi="+.130" Yi="-.225" Xm="+3.30" Ym="-5.71" size="20" service_rating="I" />
+    <Contact_id name="F" Xi=".000" Yi="-.225" Xm="0.00" Ym="-5.71" size="20" service_rating="I" />
+    <Contact_id name="G" Xi="-.130" Yi="-.225" Xm="-3.30" Ym="-5.71" size="20" service_rating="I" />
+    <Contact_id name="H" Xi="-.195" Yi="-.113" Xm="-4.95" Ym="-2.87" size="20" service_rating="I" />
+    <Contact_id name="J" Xi="-.260" Yi=".000" Xm="-6.60" Ym="0.00" size="20" service_rating="I" />
+    <Contact_id name="K" Xi="-.195" Yi="+.113" Xm="-4.95" Ym="+2.87" size="20" service_rating="I" />
+    <Contact_id name="L" Xi="-.065" Yi="+.252" Xm="-1.65" Ym="+6.40" size="20" service_rating="I" />
+    <Contact_id name="M" Xi="-.065" Yi="+.113" Xm="-1.65" Ym="+2.87" size="20" service_rating="I" />
+    <Contact_id name="N" Xi="+.065" Yi="+.113" Xm="+1.65" Ym="+2.87" size="20" service_rating="I" />
+    <Contact_id name="P" Xi="+.130" Yi=".000" Xm="+3.30" Ym="0.00" size="20" service_rating="I" />
+    <Contact_id name="R" Xi="+.065" Yi="-.113" Xm="+1.65" Ym="-2.87" size="20" service_rating="I" />
+    <Contact_id name="S" Xi="-.065" Yi="-.113" Xm="-1.65" Ym="-2.87" size="20" service_rating="I" />
+    <Contact_id name="T" Xi="-.130" Yi=".000" Xm="-3.30" Ym="0.00" size="20" service_rating="I" />
+    <Contact_id name="U" Xi=".000" Yi=".000" Xm="0.00" Ym="0.00" size="20" service_rating="I" />
+  </Insert_arrangement>
+  <Insert_arrangement name="14-19" shell="14" arrangement="-19" supersedes="MS33711-19">
+    <Contact_id name="A" Xi=".000" Yi="+.225" Xm="0.00" Ym="+5.71" size="20" service_rating="I" />
+    <Contact_id name="B" Xi="+.130" Yi="+.225" Xm="+3.30" Ym="+5.71" size="20" service_rating="I" />
+    <Contact_id name="C" Xi="+.195" Yi="+.113" Xm="+4.95" Ym="+2.87" size="20" service_rating="I" />
+    <Contact_id name="D" Xi="+.260" Yi=".000" Xm="+6.60" Ym="0.00" size="20" service_rating="I" />
+    <Contact_id name="E" Xi="+.195" Yi="-.113" Xm="+4.95" Ym="-2.87" size="20" service_rating="I" />
+    <Contact_id name="F" Xi="+.130" Yi="-.225" Xm="+3.30" Ym="-5.71" size="20" service_rating="I" />
+    <Contact_id name="G" Xi=".000" Yi="-.225" Xm="0.00" Ym="-5.71" size="20" service_rating="I" />
+    <Contact_id name="H" Xi="-.130" Yi="-.225" Xm="-3.30" Ym="-5.71" size="20" service_rating="I" />
+    <Contact_id name="J" Xi="-.195" Yi="-.113" Xm="-4.95" Ym="-2.87" size="20" service_rating="I" />
+    <Contact_id name="K" Xi="-.260" Yi=".000" Xm="-6.60" Ym="0.00" size="20" service_rating="I" />
+    <Contact_id name="L" Xi="-.195" Yi="+.113" Xm="-4.95" Ym="+2.87" size="20" service_rating="I" />
+    <Contact_id name="M" Xi="-.130" Yi="+.225" Xm="-3.30" Ym="+5.71" size="20" service_rating="I" />
+    <Contact_id name="N" Xi="-.065" Yi="+.113" Xm="-1.65" Ym="+2.87" size="20" service_rating="I" />
+    <Contact_id name="P" Xi="+.065" Yi="+.113" Xm="+1.65" Ym="+2.87" size="20" service_rating="I" />
+    <Contact_id name="R" Xi="+.130" Yi=".000" Xm="+3.30" Ym="0.00" size="20" service_rating="I" />
+    <Contact_id name="S" Xi="+.065" Yi="-.113" Xm="+1.65" Ym="-2.87" size="20" service_rating="I" />
+    <Contact_id name="T" Xi="-.065" Yi="-.113" Xm="-1.65" Ym="-2.87" size="20" service_rating="I" />
+    <Contact_id name="U" Xi="-.130" Yi=".000" Xm="-3.30" Ym="0.00" size="20" service_rating="I" />
+    <Contact_id name="V" Xi=".000" Yi=".000" Xm="0.00" Ym="0.00" size="20" service_rating="I" />
+  </Insert_arrangement>
+  <Insert_arrangement name="14-22" shell="14" arrangement="-22" supersedes="M33711-22">
+    <Contact_id name="A" Xi=".000" Yi="+.191" Xm="0.00" Ym="+4.85" size="12" service_rating="I" />
+    <Contact_id name="B" Xi="-.191" Yi=".000" Xm="-4.85" Ym="0.00" size="12" service_rating="I" />
+    <Contact_id name="C" Xi=".000" Yi="-.191" Xm="0.00" Ym="-4.85" size="12" service_rating="I" />
+    <Contact_id name="D" Xi="+.191" Yi=".000" Xm="+4.85" Ym="0.00" size="12" service_rating="I" />
+    <Contact_id name="E" Xi=".000" Yi=".000" Xm="0.00" Ym="0.00" size="20" service_rating="I" />
+  </Insert_arrangement>
+  <Insert_arrangement name="16-8" shell="16" arrangement="-8" supersedes="MS33712-8">
+    <Contact_id name="A" Xi=".000" Yi="+.236" Xm="0.00" Ym="+5.99" size="16" service_rating="II" />
+    <Contact_id name="B" Xi="+.128" Yi="+.086" Xm="+3.25" Ym="+2.18" size="16" service_rating="II" />
+    <Contact_id name="C" Xi="+.230" Yi="-.078" Xm="+5.60" Ym="-1.98" size="16" service_rating="II" />
+    <Contact_id name="D" Xi="+.094" Yi="-.216" Xm="+2.39" Ym="-5.49" size="16" service_rating="II" />
+    <Contact_id name="E" Xi="-.094" Yi="-.216" Xm="-2.39" Ym="-5.49" size="16" service_rating="II" />
+    <Contact_id name="F" Xi="-.230" Yi="-.078" Xm="-5.60" Ym="-1.98" size="16" service_rating="II" />
+    <Contact_id name="G" Xi="-.128" Yi="+.086" Xm="-3.25" Ym="+2.18" size="16" service_rating="II" />
+    <Contact_id name="H" Xi=".000" Yi="-.052" Xm="0.00" Ym="-1.32" size="16" service_rating="II" />
+  </Insert_arrangement>
+  <Insert_arrangement name="16-14" shell="16" arrangement="-14" supersedes="MS33712-14">
+    <Contact_id name="A" Xi=".000" Yi="+.268" Xm="0.00" Ym="+6.81" size="12" service_rating="I" />
+    <Contact_id name="B" Xi="+.178" Yi="+.266" Xm="+4.52" Ym="+6.76" size="20" service_rating="I" />
+    <Contact_id name="C" Xi="+.268" Yi="+.173" Xm="+6.81" Ym="+4.39" size="20" service_rating="I" />
+    <Contact_id name="D" Xi="+.268" Yi="-.005" Xm="+6.81" Ym="-.130" size="12" service_rating="I" />
+    <Contact_id name="E" Xi="+.165" Yi="-.212" Xm="+4.19" Ym="-5.38" size="12" service_rating="I" />
+    <Contact_id name="F" Xi=".000" Yi="-.320" Xm="0.00" Ym="-8.13" size="20" service_rating="I" />
+    <Contact_id name="G" Xi="-.165" Yi="-.212" Xm="-4.19" Ym="-5.38" size="12" service_rating="I" />
+    <Contact_id name="H" Xi="-.268" Yi="-.005" Xm="-6.81" Ym="-.130" size="12" service_rating="I" />
+    <Contact_id name="J" Xi="-.268" Yi="+.173" Xm="-6.81" Ym="+4.39" size="20" service_rating="I" />
+    <Contact_id name="K" Xi="-.178" Yi="+.266" Xm="-4.52" Ym="+6.76" size="20" service_rating="I" />
+    <Contact_id name="L" Xi="+.142" Yi="+.139" Xm="+3.61" Ym="+3.53" size="20" service_rating="I" />
+    <Contact_id name="M" Xi=".000" Yi="-.146" Xm="0.00" Ym="-3.71" size="20" service_rating="I" />
+    <Contact_id name="N" Xi="-.142" Yi="+.139" Xm="-3.61" Ym="+3.53" size="20" service_rating="I" />
+    <Contact_id name="P" Xi=".000" Yi="+.032" Xm="0.00" Ym="+0.81" size="12" service_rating="I" />
+  </Insert_arrangement>
+  <Insert_arrangement name="16-23" shell="16" arrangement="-23" supersedes="MS33712-23">
+    <Contact_id name="A" Xi="+.070" Yi="+.300" Xm="+1.79" Ym="+7.62" size="20" service_rating="I" />
+    <Contact_id name="B" Xi="+.193" Yi="+.240" Xm="+4.90" Ym="+6.10" size="20" service_rating="I" />
+    <Contact_id name="C" Xi="+.278" Yi="+.134" Xm="+7.06" Ym="+3.40" size="20" service_rating="I" />
+    <Contact_id name="D" Xi="+.308" Yi=".000" Xm="+7.82" Ym="0.00" size="20" service_rating="I" />
+    <Contact_id name="E" Xi="+.278" Yi="-.134" Xm="+7.06" Ym="-3.40" size="20" service_rating="I" />
+    <Contact_id name="F" Xi="+.193" Yi="-.240" Xm="+4.90" Ym="-6.10" size="20" service_rating="I" />
+    <Contact_id name="G" Xi="+.070" Yi="-.300" Xm="+1.79" Ym="-7.62" size="20" service_rating="I" />
+    <Contact_id name="H" Xi="-.070" Yi="-.300" Xm="-1.79" Ym="-7.62" size="20" service_rating="I" />
+    <Contact_id name="J" Xi="-.193" Yi="-.240" Xm="-4.90" Ym="-6.10" size="20" service_rating="I" />
+    <Contact_id name="K" Xi="-.278" Yi="-.134" Xm="-7.06" Ym="-3.40" size="20" service_rating="I" />
+    <Contact_id name="L" Xi="-.308" Yi=".000" Xm="-7.82" Ym="0.00" size="20" service_rating="I" />
+    <Contact_id name="M" Xi="-.278" Yi="+.134" Xm="-7.06" Ym="+3.40" size="20" service_rating="I" />
+    <Contact_id name="N" Xi="-.193" Yi="+.240" Xm="-4.90" Ym="+6.10" size="20" service_rating="I" />
+    <Contact_id name="P" Xi="-.070" Yi="+.300" Xm="-1.79" Ym="+7.62" size="20" service_rating="I" />
+    <Contact_id name="R" Xi=".000" Yi="+.178" Xm="0.00" Ym="+4.52" size="20" service_rating="I" />
+    <Contact_id name="S" Xi="+.126" Yi="+.126" Xm="+3.20" Ym="+3.20" size="20" service_rating="I" />
+    <Contact_id name="T" Xi="+.178" Yi=".000" Xm="+4.52" Ym="0.00" size="20" service_rating="I" />
+    <Contact_id name="U" Xi="+.126" Yi="-.126" Xm="+3.20" Ym="-3.20" size="20" service_rating="I" />
+    <Contact_id name="V" Xi=".000" Yi="-.178" Xm="0.00" Ym="-4.52" size="20" service_rating="I" />
+    <Contact_id name="W" Xi="-.126" Yi="-.126" Xm="-3.20" Ym="-3.20" size="20" service_rating="I" />
+    <Contact_id name="X" Xi="-.178" Yi=".000" Xm="-4.52" Ym="0.00" size="20" service_rating="I" />
+    <Contact_id name="Y" Xi="-.126" Yi="+.126" Xm="-3.20" Ym="+3.20" size="20" service_rating="I" />
+    <Contact_id name="Z" Xi=".000" Yi=".000" Xm="0.00" Ym="0.00" size="16" service_rating="I" />
+  </Insert_arrangement>
+  <Insert_arrangement name="16-26" shell="16" arrangement="-26" supersedes="MS33712-26">
+    <Contact_id name="A" Xi=".000" Yi="+.321" Xm="0.00" Ym="+8.15" size="20" service_rating="I" />
+    <Contact_id name="B" Xi="+.131" Yi="+.293" Xm="+3.33" Ym="+7.44" size="20" service_rating="I" />
+    <Contact_id name="C" Xi="+.239" Yi="+.214" Xm="+6.07" Ym="+5.44" size="20" service_rating="I" />
+    <Contact_id name="D" Xi="+.305" Yi="+.099" Xm="+7.75" Ym="+2.51" size="20" service_rating="I" />
+    <Contact_id name="E" Xi="+.319" Yi="-.034" Xm="+8.10" Ym="-0.86" size="20" service_rating="I" />
+    <Contact_id name="F" Xi="+.278" Yi="-.161" Xm="+7.06" Ym="-4.09" size="20" service_rating="I" />
+    <Contact_id name="G" Xi="+.189" Yi="-.260" Xm="+4.80" Ym="-6.60" size="20" service_rating="I" />
+    <Contact_id name="H" Xi="+.067" Yi="-.314" Xm="+1.70" Ym="-7.98" size="20" service_rating="I" />
+    <Contact_id name="J" Xi="-.067" Yi="-.314" Xm="-1.70" Ym="-7.98" size="20" service_rating="I" />
+    <Contact_id name="K" Xi="-.189" Yi="-.260" Xm="-4.80" Ym="-6.60" size="20" service_rating="I" />
+    <Contact_id name="L" Xi="-.278" Yi="-.161" Xm="-7.06" Ym="-4.09" size="20" service_rating="I" />
+    <Contact_id name="M" Xi="-.319" Yi="-.034" Xm="-8.10" Ym="-0.86" size="20" service_rating="I" />
+    <Contact_id name="N" Xi="-.305" Yi="+.099" Xm="-7.75" Ym="+2.51" size="20" service_rating="I" />
+    <Contact_id name="P" Xi="-.239" Yi="+.214" Xm="-6.07" Ym="+5.44" size="20" service_rating="I" />
+    <Contact_id name="R" Xi="-.131" Yi="+.293" Xm="-3.33" Ym="+7.44" size="20" service_rating="I" />
+    <Contact_id name="S" Xi="-.070" Yi="+.177" Xm="-1.79" Ym="+4.50" size="20" service_rating="I" />
+    <Contact_id name="T" Xi="+.070" Yi="+.177" Xm="+1.79" Ym="+4.50" size="20" service_rating="I" />
+    <Contact_id name="U" Xi="+.175" Yi="+.094" Xm="+4.44" Ym="+2.39" size="20" service_rating="I" />
+    <Contact_id name="V" Xi="+.178" Yi="-.036" Xm="+4.52" Ym="-0.91" size="20" service_rating="I" />
+    <Contact_id name="W" Xi="+.119" Yi="-.151" Xm="+3.02" Ym="-3.83" size="20" service_rating="I" />
+    <Contact_id name="X" Xi=".000" Yi="-.203" Xm="0.00" Ym="-5.16" size="20" service_rating="I" />
+    <Contact_id name="Y" Xi="-.119" Yi="-.151" Xm="-3.02" Ym="-3.83" size="20" service_rating="I" />
+    <Contact_id name="Z" Xi="-.178" Yi="-.036" Xm="-4.52" Ym="-0.91" size="20" service_rating="I" />
+    <Contact_id name="a" Xi="-.175" Yi="+.094" Xm="-4.44" Ym="+2.39" size="20" service_rating="I" />
+    <Contact_id name="b" Xi=".000" Yi="+.065" Xm="0.00" Ym="+1.65" size="20" service_rating="I" />
+    <Contact_id name="c" Xi=".000" Yi="-.065" Xm="0.00" Ym="-1.65" size="20" service_rating="I" />
+  </Insert_arrangement>
+  <Insert_arrangement name="16-95" shell="16" arrangement="-95" supersedes="MS33712-95">
+    <Contact_id name="A" Xi=".000" Yi="+.162" Xm="0.00" Ym="+4.11" size="20" service_rating="I" />
+    <Contact_id name="B" Xi="+.115" Yi="+.261" Xm="+2.92" Ym="+6.83" size="20" service_rating="I" />
+    <Contact_id name="C" Xi="+.200" Yi=".000" Xm="+5.08" Ym="0.00" size="8" service_rating="I" />
+    <Contact_id name="D" Xi="+.143" Yi="-.250" Xm="+3.63" Ym="-6.35" size="20" service_rating="I" />
+    <Contact_id name="E" Xi=".000" Yi="-.162" Xm="0.00" Ym="-.411" size="20" service_rating="I" />
+    <Contact_id name="F" Xi="-.143" Yi="-.250" Xm="-3.63" Ym="-6.35" size="20" service_rating="I" />
+    <Contact_id name="G" Xi="-.200" Yi=".000" Xm="-5.08" Ym="0.00" size="8" service_rating="I" />
+    <Contact_id name="H" Xi="-.115" Yi="+.261" Xm="-2.92" Ym="+6.83" size="20" service_rating="I" />
+  </Insert_arrangement>
+  <Insert_arrangement name="16-99" shell="16" arrangement="-99" supersedes="MS33712-99">
+    <Contact_id name="A" Xi=".000" Yi="+.321" Xm="0.00" Ym="+8.15" size="20" service_rating="I" />
+    <Contact_id name="B" Xi="+.131" Yi="+.293" Xm="+3.33" Ym="+7.44" size="20" service_rating="I" />
+    <Contact_id name="C" Xi="+.239" Yi="+.214" Xm="+6.07" Ym="+5.44" size="20" service_rating="I" />
+    <Contact_id name="D" Xi="+.305" Yi="+.099" Xm="+7.75" Ym="+2.51" size="20" service_rating="I" />
+    <Contact_id name="E" Xi="+.319" Yi="-.034" Xm="+8.10" Ym="-0.86" size="20" service_rating="I" />
+    <Contact_id name="F" Xi="+.278" Yi="-.161" Xm="+7.06" Ym="-4.09" size="20" service_rating="I" />
+    <Contact_id name="G" Xi="+.189" Yi="-.260" Xm="+4.80" Ym="-6.60" size="20" service_rating="I" />
+    <Contact_id name="H" Xi="+.067" Yi="-.314" Xm="+1.70" Ym="-7.98" size="20" service_rating="I" />
+    <Contact_id name="J" Xi="-.067" Yi="-.314" Xm="-1.70" Ym="-7.98" size="20" service_rating="I" />
+    <Contact_id name="K" Xi="-.189" Yi="-.260" Xm="-4.80" Ym="-6.60" size="20" service_rating="I" />
+    <Contact_id name="L" Xi="-.278" Yi="-.161" Xm="-7.06" Ym="-4.09" size="20" service_rating="I" />
+    <Contact_id name="M" Xi="-.319" Yi="-.034" Xm="-8.10" Ym="-0.86" size="20" service_rating="I" />
+    <Contact_id name="N" Xi="-.305" Yi="+.099" Xm="-7.75" Ym="+2.51" size="20" service_rating="I" />
+    <Contact_id name="P" Xi="-.239" Yi="+.214" Xm="-6.07" Ym="+5.44" size="20" service_rating="I" />
+    <Contact_id name="R" Xi="-.131" Yi="+.293" Xm="-3.33" Ym="+7.44" size="20" service_rating="I" />
+    <Contact_id name="S" Xi="-.070" Yi="+.177" Xm="-1.78" Ym="+4.50" size="20" service_rating="I" />
+    <Contact_id name="T" Xi="+.070" Yi="+.177" Xm="+1.78" Ym="+4.50" size="20" service_rating="I" />
+    <Contact_id name="U" Xi="+.175" Yi="+.094" Xm="+4.44" Ym="+2.39" size="20" service_rating="I" />
+    <Contact_id name="V" Xi="+.150" Yi="-.075" Xm="+3.81" Ym="-1.90" size="20" service_rating="I" />
+    <Contact_id name="W" Xi=".000" Yi="-.161" Xm="0.00" Ym="-4.09" size="16" service_rating="I" />
+    <Contact_id name="X" Xi="-.150" Yi="-.075" Xm="-3.81" Ym="-1.90" size="20" service_rating="I" />
+    <Contact_id name="Y" Xi="-.175" Yi="+.094" Xm="-4.44" Ym="+2.39" size="20" service_rating="I" />
+    <Contact_id name="Z" Xi=".000" Yi="+.025" Xm="0.00" Ym="+0.63" size="16" service_rating="I" />
+  </Insert_arrangement>
+  <Insert_arrangement name="18-8" shell="18" arrangement="-8" supersedes="MS33713-8 MS27730-8">
+    <Contact_id name="A" Xi=".000" Yi="+.280" Xm="0.00" Ym="+7.11" size="12" service_rating="I" />
+    <Contact_id name="B" Xi="+.219" Yi="+.175" Xm="+5.56" Ym="+4.45" size="12" service_rating="I" />
+    <Contact_id name="C" Xi="+.273" Yi="-.062" Xm="+6.93" Ym="-1.57" size="12" service_rating="I" />
+    <Contact_id name="D" Xi="+.121" Yi="-.252" Xm="+3.07" Ym="-6.40" size="12" service_rating="I" />
+    <Contact_id name="E" Xi="-.121" Yi="-.252" Xm="-3.07" Ym="-6.40" size="12" service_rating="I" />
+    <Contact_id name="F" Xi="-.273" Yi="-.062" Xm="-6.93" Ym="-1.57" size="12" service_rating="I" />
+    <Contact_id name="G" Xi="-.219" Yi="+.175" Xm="-5.56" Ym="+4.45" size="12" service_rating="I" />
+    <Contact_id name="H" Xi=".000" Yi=".000" Xm="0.00" Ym="0.00" size="12" service_rating="I" />
+  </Insert_arrangement>
+  <Insert_arrangement name="18-11" shell="18" arrangement="-11" supersedes="MS33713-11">
+    <Contact_id name="A" Xi="+.105" Yi="+.260" Xm="+2.67" Ym="+6.60" size="16" service_rating="II" />
+    <Contact_id name="B" Xi="+.250" Yi="+.132" Xm="+6.35" Ym="+3.35" size="16" service_rating="II" />
+    <Contact_id name="C" Xi="+.275" Yi="-.053" Xm="+6.99" Ym="-1.35" size="16" service_rating="II" />
+    <Contact_id name="D" Xi="+.179" Yi="-.215" Xm="+4.55" Ym="-5.46" size="16" service_rating="II" />
+    <Contact_id name="E" Xi=".000" Yi="-.281" Xm=".000" Ym="-7.14" size="16" service_rating="II" />
+    <Contact_id name="F" Xi="-.179" Yi="-.215" Xm="-4.55" Ym="-5.46" size="16" service_rating="II" />
+    <Contact_id name="G" Xi="-.275" Yi="-.053" Xm="-6.99" Ym="-1.35" size="16" service_rating="II" />
+    <Contact_id name="H" Xi="-.250" Yi="+.132" Xm="-6.35" Ym="+3.35" size="16" service_rating="II" />
+    <Contact_id name="J" Xi="-.105" Yi="+.260" Xm="-2.67" Ym="+6.60" size="16" service_rating="II" />
+    <Contact_id name="K" Xi=".000" Yi="+.105" Xm=".000" Ym="+2.67" size="16" service_rating="II" />
+    <Contact_id name="L" Xi=".000" Yi="-.092" Xm=".000" Ym="-2.34" size="16" service_rating="II" />
+  </Insert_arrangement>
+  <Insert_arrangement name="18-30" shell="18" arrangement="-30" supersedes="MS33713-30 MS27730-30">
+    <Contact_id name="A" Xi="+.065" Yi="+.346" Xm="+1.65" Ym="+8.79" size="20" service_rating="I" />
+    <Contact_id name="B" Xi="+.186" Yi="+.299" Xm="+4.72" Ym="+7.59" size="20" service_rating="I" />
+    <Contact_id name="C" Xi="+.282" Yi="+.210" Xm="+7.16" Ym="+5.33" size="20" service_rating="I" />
+    <Contact_id name="D" Xi="+.340" Yi="+.093" Xm="+8.67" Ym="+2.36" size="20" service_rating="I" />
+    <Contact_id name="E" Xi="+.351" Yi="-.033" Xm="+8.91" Ym="-0.84" size="20" service_rating="I" />
+    <Contact_id name="F" Xi="+.315" Yi="-.158" Xm="+8.00" Ym="-4.01" size="20" service_rating="I" />
+    <Contact_id name="G" Xi="+.236" Yi="-.261" Xm="+5.99" Ym="-6.63" size="20" service_rating="I" />
+    <Contact_id name="H" Xi="+.124" Yi="-.330" Xm="+3.15" Ym="-8.38" size="20" service_rating="I" />
+    <Contact_id name="J" Xi="-.124" Yi="-.330" Xm="-3.15" Ym="-8.38" size="20" service_rating="I" />
+    <Contact_id name="K" Xi="-.236" Yi="-.261" Xm="-5.99" Ym="-6.63" size="20" service_rating="I" />
+    <Contact_id name="L" Xi="-.315" Yi="-.158" Xm="-8.00" Ym="-4.01" size="20" service_rating="I" />
+    <Contact_id name="M" Xi="-.351" Yi="-.033" Xm="-8.91" Ym="-0.84" size="20" service_rating="I" />
+    <Contact_id name="N" Xi="-.340" Yi="+.093" Xm="-8.67" Ym="+2.36" size="20" service_rating="I" />
+    <Contact_id name="P" Xi="-.282" Yi="+.210" Xm="-7.16" Ym="+5.33" size="20" service_rating="I" />
+    <Contact_id name="R" Xi="-.186" Yi="+.299" Xm="-4.72" Ym="+7.59" size="20" service_rating="I" />
+    <Contact_id name="S" Xi="-.065" Yi="+.346" Xm="-1.65" Ym="+8.79" size="20" service_rating="I" />
+    <Contact_id name="T" Xi="+.084" Yi="+.217" Xm="+2.13" Ym="+5.51" size="20" service_rating="I" />
+    <Contact_id name="U" Xi="+.181" Yi="+.129" Xm="+4.60" Ym="+3.28" size="20" service_rating="I" />
+    <Contact_id name="V" Xi="+.228" Yi="+.008" Xm="+5.79" Ym="+0.20" size="20" service_rating="I" />
+    <Contact_id name="W" Xi="+.193" Yi="-.117" Xm="+4.90" Ym="-2.97" size="20" service_rating="I" />
+    <Contact_id name="X" Xi="+.096" Yi="-.203" Xm="+2.44" Ym="-5.16" size="20" service_rating="I" />
+    <Contact_id name="Y" Xi=".000" Yi="-.290" Xm="0.00" Ym="-7.37" size="20" service_rating="I" />
+    <Contact_id name="Z" Xi="-.096" Yi="-.203" Xm="-2.44" Ym="-5.16" size="20" service_rating="I" />
+    <Contact_id name="a" Xi="-.193" Yi="-.117" Xm="-4.90" Ym="-2.97" size="20" service_rating="I" />
+    <Contact_id name="b" Xi="-.228" Yi="+.008" Xm="-5.79" Ym="+0.20" size="20" service_rating="I" />
+    <Contact_id name="c" Xi="-.181" Yi="+.129" Xm="-4.60" Ym="+3.28" size="20" service_rating="I" />
+    <Contact_id name="d" Xi="-.084" Yi="+.217" Xm="-2.13" Ym="+5.51" size="20" service_rating="I" />
+    <Contact_id name="e" Xi=".000" Yi="+.072" Xm="0.00" Ym="+1.83" size="16" service_rating="I" />
+    <Contact_id name="f" Xi="+.069" Yi="-.076" Xm="+1.75" Ym="-1.93" size="20" service_rating="I" />
+    <Contact_id name="g" Xi="-.069" Yi="-.076" Xm="-1.75" Ym="-1.93" size="20" service_rating="I" />
+  </Insert_arrangement>
+  <Insert_arrangement name="18-32" shell="18" arrangement="-32" supersedes="MS33713-32">
+    <Contact_id name="A" Xi="+.066" Yi="+.353" Xm="+1.68" Ym="+8.97" size="20" service_rating="I" />
+    <Contact_id name="B" Xi="+.189" Yi="+.305" Xm="+4.80" Ym="+7.75" size="20" service_rating="I" />
+    <Contact_id name="C" Xi="+.286" Yi="+.217" Xm="+7.26" Ym="+5.51" size="20" service_rating="I" />
+    <Contact_id name="D" Xi="+.345" Yi="+.098" Xm="+8.76" Ym="+2.49" size="20" service_rating="I" />
+    <Contact_id name="E" Xi="+.357" Yi="-.033" Xm="+9.07" Ym="-0.84" size="20" service_rating="I" />
+    <Contact_id name="F" Xi="+.321" Yi="-.160" Xm="+8.15" Ym="-4.06" size="20" service_rating="I" />
+    <Contact_id name="G" Xi="+.242" Yi="-.265" Xm="+6.15" Ym="-6.73" size="20" service_rating="I" />
+    <Contact_id name="H" Xi="+.130" Yi="-.335" Xm="+3.30" Ym="-8.51" size="20" service_rating="I" />
+    <Contact_id name="J" Xi=".000" Yi="-.359" Xm="0.00" Ym="-9.12" size="20" service_rating="I" />
+    <Contact_id name="K" Xi="-.130" Yi="-.335" Xm="-3.30" Ym="-8.51" size="20" service_rating="I" />
+    <Contact_id name="L" Xi="-.242" Yi="-.265" Xm="-6.15" Ym="-6.73" size="20" service_rating="I" />
+    <Contact_id name="M" Xi="-.321" Yi="-.160" Xm="-8.15" Ym="-4.06" size="20" service_rating="I" />
+    <Contact_id name="N" Xi="-.357" Yi="-.033" Xm="-9.07" Ym="-0.84" size="20" service_rating="I" />
+    <Contact_id name="P" Xi="-.345" Yi="+.098" Xm="-8.76" Ym="+2.49" size="20" service_rating="I" />
+    <Contact_id name="R" Xi="-.286" Yi="+.217" Xm="-7.26" Ym="+5.51" size="20" service_rating="I" />
+    <Contact_id name="S" Xi="-.189" Yi="+.305" Xm="-4.80" Ym="+7.75" size="20" service_rating="I" />
+    <Contact_id name="T" Xi="-.066" Yi="+.353" Xm="-1.68" Ym="+8.97" size="20" service_rating="I" />
+    <Contact_id name="U" Xi=".000" Yi="+.230" Xm="0.00" Ym="+5.84" size="20" service_rating="I" />
+    <Contact_id name="V" Xi="+.124" Yi="+.193" Xm="+3.15" Ym="+4.90" size="20" service_rating="I" />
+    <Contact_id name="W" Xi="+.209" Yi="+.095" Xm="+5.31" Ym="+2.41" size="20" service_rating="I" />
+    <Contact_id name="X" Xi="+.228" Yi="-.033" Xm="+5.79" Ym="-0.84" size="20" service_rating="I" />
+    <Contact_id name="Y" Xi="+.174" Yi="-.151" Xm="+4.42" Ym="-3.83" size="20" service_rating="I" />
+    <Contact_id name="Z" Xi="+.065" Yi="-.221" Xm="+1.65" Ym="-5.61" size="20" service_rating="I" />
+    <Contact_id name="a" Xi="-.065" Yi="-.221" Xm="-1.65" Ym="-5.61" size="20" service_rating="I" />
+    <Contact_id name="b" Xi="-.174" Yi="-.151" Xm="-4.42" Ym="-3.83" size="20" service_rating="I" />
+    <Contact_id name="c" Xi="-.228" Yi="-.033" Xm="-5.79" Ym="-0.84" size="20" service_rating="I" />
+    <Contact_id name="d" Xi="-.209" Yi="+.095" Xm="-5.31" Ym="+2.41" size="20" service_rating="I" />
+    <Contact_id name="e" Xi="-.124" Yi="+.193" Xm="-3.15" Ym="+4.90" size="20" service_rating="I" />
+    <Contact_id name="f" Xi=".000" Yi="+.096" Xm="0.00" Ym="+2.44" size="20" service_rating="I" />
+    <Contact_id name="g" Xi="+.096" Yi=".000" Xm="+2.44" Ym="0.00" size="20" service_rating="I" />
+    <Contact_id name="h" Xi=".000" Yi="-.096" Xm="0.00" Ym="-2.44" size="20" service_rating="I" />
+    <Contact_id name="j" Xi="-.096" Yi=".000" Xm="-2.44" Ym="0.00" size="20" service_rating="I" />
+  </Insert_arrangement>
+  <Insert_arrangement name="18-85" shell="18" arrangement="-85" supersedes="MS33713-85">
+    <Contact_id name="A" Xi=".000" Yi="+.305" Xm=".000" Ym="+7.75" size="12" service_rating="I" />
+    <Contact_id name="B" Xi="+.215" Yi="+.215" Xm="+5.46" Ym="+5.46" size="12" service_rating="I" />
+    <Contact_id name="C" Xi="+.305" Yi=".000" Xm="+7.75" Ym=".000" size="12" service_rating="I" />
+    <Contact_id name="D" Xi="+.215" Yi="-.214" Xm="+5.46" Ym="-5.44" size="12" service_rating="I" />
+    <Contact_id name="E" Xi=".000" Yi="-.300" Xm=".000" Ym="-7.62" size="12" service_rating="I" />
+    <Contact_id name="F" Xi="-.215" Yi="-.214" Xm="-5.46" Ym="-5.44" size="12" service_rating="I" />
+    <Contact_id name="G" Xi="-.305" Yi=".000" Xm="-7.75" Ym=".000" size="12" service_rating="I" />
+    <Contact_id name="H" Xi="-.215" Yi="+.215" Xm="-5.46" Ym="+5.46" size="12" service_rating="I" />
+    <Contact_id name="J" Xi=".000" Yi="+.122" Xm=".000" Ym="+3.10" size="20" service_rating="I" />
+    <Contact_id name="K" Xi="+.126" Yi="+.059" Xm="+3.20" Ym="+1.50" size="20" service_rating="I" />
+    <Contact_id name="L" Xi="+.078" Yi="-.079" Xm="+1.98" Ym="-2.01" size="20" service_rating="I" />
+    <Contact_id name="M" Xi="-.078" Yi="-.079" Xm="-1.98" Ym="-2.01" size="20" service_rating="I" />
+    <Contact_id name="N" Xi="-.126" Yi="+.059" Xm="-3.20" Ym="+1.50" size="20" service_rating="I" />
+  </Insert_arrangement>
+  <Insert_arrangement name="18-88" shell="18" arrangement="-88" supersedes="MS33713-88">
+    <Contact_id name="A" Xi=".000" Yi="+.350" Xm=".000" Ym="+8.89" size="20" service_rating="I" />
+    <Contact_id name="B" Xi="+.175" Yi="+.175" Xm="+4.44" Ym="+4.44" size="8" service_rating="I" />
+    <Contact_id name="C" Xi="+.350" Yi=".000" Xm="+8.89" Ym=".000" size="20" service_rating="I" />
+    <Contact_id name="D" Xi="+.175" Yi="-.175" Xm="+4.44" Ym="-4.44" size="8" service_rating="I" />
+    <Contact_id name="E" Xi="-.175" Yi="-.175" Xm="-4.44" Ym="-4.44" size="8" service_rating="I" />
+    <Contact_id name="F" Xi="-.350" Yi=".000" Xm="-8.89" Ym=".000" size="20" service_rating="I" />
+    <Contact_id name="G" Xi="-.175" Yi="+.175" Xm="-4.44" Ym="+4.44" size="8" service_rating="I" />
+    <Contact_id name="H" Xi=".000" Yi=".000" Xm=".000" Ym=".000" size="20" service_rating="I" />
+  </Insert_arrangement>
+  <Insert_arrangement name="20-16" shell="20" arrangement="-16" supersedes="MS33714-16">
+    <Contact_id name="A" Xi="+.118" Yi="+.322" Xm="+3.00" Ym="+8.18" size="16" service_rating="II" />
+    <Contact_id name="B" Xi="+.271" Yi="+.211" Xm="+6.88" Ym="+5.36" size="16" service_rating="II" />
+    <Contact_id name="C" Xi="+.341" Yi="+.036" Xm="+8.66" Ym="+0.91" size="16" service_rating="II" />
+    <Contact_id name="D" Xi="+.308" Yi="-.150" Xm="+7.82" Ym="-3.81" size="16" service_rating="II" />
+    <Contact_id name="E" Xi="+.182" Yi="-.290" Xm="+4.62" Ym="-7.37" size="16" service_rating="II" />
+    <Contact_id name="F" Xi=".000" Yi="-.343" Xm=".000" Ym="-8.71" size="16" service_rating="II" />
+    <Contact_id name="G" Xi="-.182" Yi="-.290" Xm="-4.62" Ym="-7.37" size="16" service_rating="II" />
+    <Contact_id name="H" Xi="-.308" Yi="-.150" Xm="-7.82" Ym="-3.81" size="16" service_rating="II" />
+    <Contact_id name="J" Xi="-.341" Yi="+.036" Xm="-8.66" Ym="+0.91" size="16" service_rating="II" />
+    <Contact_id name="K" Xi="-.271" Yi="+.211" Xm="-6.88" Ym="+5.36" size="16" service_rating="II" />
+    <Contact_id name="L" Xi="-.118" Yi="+.322" Xm="-3.00" Ym="+8.18" size="16" service_rating="II" />
+    <Contact_id name="M" Xi=".000" Yi="+.175" Xm=".000" Ym="+4.44" size="16" service_rating="II" />
+    <Contact_id name="N" Xi="+.154" Yi="+.062" Xm="+3.91" Ym="+1.57" size="16" service_rating="II" />
+    <Contact_id name="P" Xi="+.094" Yi="-.122" Xm="+2.39" Ym="-3.10" size="16" service_rating="II" />
+    <Contact_id name="R" Xi="-.094" Yi="-.122" Xm="-2.39" Ym="-3.10" size="16" service_rating="II" />
+    <Contact_id name="S" Xi="-.154" Yi="+.062" Xm="-3.91" Ym="+1.57" size="16" service_rating="II" />
+  </Insert_arrangement>
+  <Insert_arrangement name="20-24" shell="20" arrangement="-24" supersedes="MS33714-24 MS27731-24">
+    <Contact_id name="A" Xi="+.175" Yi="+.375" Xm="+4.44" Ym="+9.52" size="20" service_rating="I" />
+    <Contact_id name="B" Xi="+.350" Yi="+.200" Xm="+8.89" Ym="+5.08" size="20" service_rating="I" />
+    <Contact_id name="C" Xi="+.400" Yi=".000" Xm="+10.18" Ym=".000" size="20" service_rating="I" />
+    <Contact_id name="D" Xi="+.350" Yi="-.200" Xm="+8.89" Ym="-5.08" size="20" service_rating="I" />
+    <Contact_id name="E" Xi="+.200" Yi="-.350" Xm="+5.08" Ym="-8.89" size="20" service_rating="I" />
+    <Contact_id name="F" Xi=".000" Yi="-.400" Xm=".000" Ym="-10.16" size="20" service_rating="I" />
+    <Contact_id name="G" Xi="-.200" Yi="-.350" Xm="-5.08" Ym="-8.89" size="20" service_rating="I" />
+    <Contact_id name="H" Xi="-.350" Yi="-.200" Xm="-8.89" Ym="-5.08" size="20" service_rating="I" />
+    <Contact_id name="J" Xi="-.400" Yi=".000" Xm="-10.18" Ym=".000" size="20" service_rating="I" />
+    <Contact_id name="K" Xi="-.350" Yi="+.200" Xm="-8.89" Ym="+5.08" size="20" service_rating="I" />
+    <Contact_id name="L" Xi="-.175" Yi="+.375" Xm="-4.44" Ym="+9.52" size="20" service_rating="I" />
+    <Contact_id name="M" Xi=".000" Yi="+.300" Xm=".000" Ym="+7.62" size="20" service_rating="I" />
+    <Contact_id name="N" Xi="+.150" Yi="+.200" Xm="+3.81" Ym="+5.08" size="20" service_rating="I" />
+    <Contact_id name="P" Xi="+.250" Yi=".000" Xm="+6.35" Ym=".000" size="20" service_rating="I" />
+    <Contact_id name="R" Xi="+.200" Yi="-.150" Xm="+5.08" Ym="-3.81" size="20" service_rating="I" />
+    <Contact_id name="S" Xi="+.075" Yi="-.250" Xm="+1.90" Ym="-6.35" size="20" service_rating="I" />
+    <Contact_id name="T" Xi="-.075" Yi="-.250" Xm="-1.90" Ym="-6.35" size="20" service_rating="I" />
+    <Contact_id name="U" Xi="-.200" Yi="-.150" Xm="-5.08" Ym="-3.81" size="20" service_rating="I" />
+    <Contact_id name="V" Xi="-.250" Yi=".000" Xm="-6.35" Ym=".000" size="20" service_rating="I" />
+    <Contact_id name="W" Xi="-.150" Yi="+.200" Xm="-3.81" Ym="+5.08" size="20" service_rating="I" />
+    <Contact_id name="X" Xi=".000" Yi="+.150" Xm=".000" Ym="+3.81" size="20" service_rating="I" />
+    <Contact_id name="Y" Xi="+.100" Yi="+.025" Xm="+2.54" Ym="+0.63" size="20" service_rating="I" />
+    <Contact_id name="Z" Xi=".000" Yi="-.100" Xm=".000" Ym="-2.54" size="20" service_rating="I" />
+    <Contact_id name="a" Xi="-.100" Yi="+.025" Xm="-2.54" Ym="+0.63" size="20" service_rating="I" />
+  </Insert_arrangement>
+  <Insert_arrangement name="20-27" shell="20" arrangement="-27" supersedes="MS33714-27 MS27731-27">
+    <Contact_id name="A" Xi=".000" Yi="+.400" Xm=".000" Ym="+10.16" size="20" service_rating="I" />
+    <Contact_id name="B" Xi="+.150" Yi="+.375" Xm="+3.81" Ym="+9.53" size="20" service_rating="I" />
+    <Contact_id name="C" Xi="+.275" Yi="+.275" Xm="+6.99" Ym="+6.99" size="20" service_rating="I" />
+    <Contact_id name="D" Xi="+.375" Yi="+.150" Xm="+9.53" Ym="+3.81" size="20" service_rating="I" />
+    <Contact_id name="E" Xi="+.400" Yi=".000" Xm="+10.16" Ym=".000" size="20" service_rating="I" />
+    <Contact_id name="F" Xi="+.375" Yi="-.150" Xm="+9.53" Ym="-3.81" size="20" service_rating="I" />
+    <Contact_id name="G" Xi="+.275" Yi="-.300" Xm="+6.99" Ym="-7.62" size="20" service_rating="I" />
+    <Contact_id name="H" Xi="+.100" Yi="-.400" Xm="+2.54" Ym="-10.16" size="20" service_rating="I" />
+    <Contact_id name="J" Xi="-.100" Yi="-.400" Xm="-2.54" Ym="-10.16" size="20" service_rating="I" />
+    <Contact_id name="K" Xi="-.275" Yi="-.300" Xm="-6.99" Ym="-7.62" size="20" service_rating="I" />
+    <Contact_id name="L" Xi="-.375" Yi="-.150" Xm="-9.53" Ym="-3.81" size="20" service_rating="I" />
+    <Contact_id name="M" Xi="-.400" Yi=".000" Xm="-10.16" Ym=".000" size="20" service_rating="I" />
+    <Contact_id name="N" Xi="-.375" Yi="+.150" Xm="-9.53" Ym="+3.81" size="20" service_rating="I" />
+    <Contact_id name="P" Xi="-.275" Yi="+.275" Xm="-6.99" Ym="+6.99" size="20" service_rating="I" />
+    <Contact_id name="R" Xi="-.150" Yi="+.375" Xm="-3.81" Ym="+9.53" size="20" service_rating="I" />
+    <Contact_id name="S" Xi="+.125" Yi="+.225" Xm="+3.18" Ym="+5.71" size="20" service_rating="I" />
+    <Contact_id name="T" Xi="+.225" Yi="-.100" Xm="+5.71" Ym="-2.54" size="20" service_rating="I" />
+    <Contact_id name="U" Xi="+.250" Yi="-.050" Xm="+6.35" Ym="-1.27" size="20" service_rating="I" />
+    <Contact_id name="V" Xi="+.150" Yi="-.200" Xm="+3.81" Ym="-5.08" size="20" service_rating="I" />
+    <Contact_id name="W" Xi=".000" Yi="-.250" Xm=".000" Ym="-6.35" size="20" service_rating="I" />
+    <Contact_id name="X" Xi="-.150" Yi="-.200" Xm="-3.81" Ym="-5.08" size="20" service_rating="I" />
+    <Contact_id name="Y" Xi="-.250" Yi="-.050" Xm="-6.35" Ym="-1.27" size="20" service_rating="I" />
+    <Contact_id name="Z" Xi="-.225" Yi="-.100" Xm="-5.71" Ym="-2.54" size="20" service_rating="I" />
+    <Contact_id name="a" Xi="-.125" Yi="+.225" Xm="-3.18" Ym="+5.71" size="20" service_rating="I" />
+    <Contact_id name="b" Xi=".000" Yi="+.100" Xm=".000" Ym="+2.54" size="20" service_rating="I" />
+    <Contact_id name="c" Xi="+.100" Yi="-.025" Xm="+2.54" Ym="-0.63" size="20" service_rating="I" />
+    <Contact_id name="d" Xi="-.100" Yi="-.025" Xm="-2.54" Ym="-0.63" size="20" service_rating="I" />
+  </Insert_arrangement>
+  <Insert_arrangement name="20-39" shell="20" arrangement="-39" supersedes="MS33714-39 MS27731-39">
+    <Contact_id name="A" Xi="+.065" Yi="+.411" Xm="+1.65" Ym="+10.44" size="20" service_rating="I" />
+    <Contact_id name="B" Xi="+.189" Yi="+.371" Xm="+4.80" Ym="+9.42" size="20" service_rating="I" />
+    <Contact_id name="C" Xi="+.294" Yi="+.294" Xm="+7.47" Ym="+7.47" size="20" service_rating="I" />
+    <Contact_id name="D" Xi="+.371" Yi="+.189" Xm="+9.42" Ym="+4.80" size="20" service_rating="I" />
+    <Contact_id name="E" Xi="+.411" Yi="+.065" Xm="+10.44" Ym="+1.65" size="20" service_rating="I" />
+    <Contact_id name="F" Xi="+.411" Yi="-.065" Xm="+10.44" Ym="-1.65" size="20" service_rating="I" />
+    <Contact_id name="G" Xi="+.371" Yi="-.189" Xm="+9.42" Ym="-4.80" size="20" service_rating="I" />
+    <Contact_id name="H" Xi="+.294" Yi="-.294" Xm="+7.47" Ym="-7.47" size="20" service_rating="I" />
+    <Contact_id name="J" Xi="+.189" Yi="-.371" Xm="+4.80" Ym="-9.42" size="20" service_rating="I" />
+    <Contact_id name="K" Xi="+.065" Yi="-.411" Xm="+1.65" Ym="-10.44" size="20" service_rating="I" />
+    <Contact_id name="L" Xi="-.065" Yi="-.411" Xm="-1.65" Ym="-10.44" size="20" service_rating="I" />
+    <Contact_id name="M" Xi="-.189" Yi="-.371" Xm="-4.80" Ym="-9.42" size="20" service_rating="I" />
+    <Contact_id name="N" Xi="-.294" Yi="-.294" Xm="-7.47" Ym="-7.47" size="20" service_rating="I" />
+    <Contact_id name="P" Xi="-.371" Yi="-.189" Xm="-9.42" Ym="-4.80" size="20" service_rating="I" />
+    <Contact_id name="R" Xi="-.411" Yi="-.065" Xm="-10.44" Ym="-1.65" size="20" service_rating="I" />
+    <Contact_id name="S" Xi="-.411" Yi="+.065" Xm="-10.44" Ym="+1.65" size="20" service_rating="I" />
+    <Contact_id name="T" Xi="-.371" Yi="+.189" Xm="-9.42" Ym="+4.80" size="20" service_rating="I" />
+    <Contact_id name="U" Xi="-.294" Yi="+.294" Xm="-7.47" Ym="+7.47" size="20" service_rating="I" />
+    <Contact_id name="V" Xi="-.189" Yi="+.371" Xm="-4.80" Ym="+9.42" size="20" service_rating="I" />
+    <Contact_id name="W" Xi="-.065" Yi="+.411" Xm="-1.65" Ym="+10.44" size="20" service_rating="I" />
+    <Contact_id name="X" Xi=".000" Yi="+.295" Xm=".000" Ym="+7.49" size="20" service_rating="I" />
+    <Contact_id name="Y" Xi="+.126" Yi="+.256" Xm="+3.20" Ym="+6.50" size="20" service_rating="I" />
+    <Contact_id name="Z" Xi="+.232" Yi="+.179" Xm="+5.89" Ym="+4.55" size="20" service_rating="I" />
+    <Contact_id name="a" Xi="+.280" Yi="+.057" Xm="+7.11" Ym="+1.45" size="20" service_rating="I" />
+    <Contact_id name="b" Xi="+.280" Yi="-.074" Xm="+7.11" Ym="-1.88" size="20" service_rating="I" />
+    <Contact_id name="c" Xi="+.217" Yi="-.189" Xm="+5.51" Ym="-4.80" size="20" service_rating="I" />
+    <Contact_id name="d" Xi="+.112" Yi="-.265" Xm="+2.84" Ym="-6.73" size="20" service_rating="I" />
+    <Contact_id name="e" Xi="-.112" Yi="-.265" Xm="-2.84" Ym="-6.73" size="20" service_rating="I" />
+    <Contact_id name="f" Xi="-.217" Yi="-.189" Xm="-5.51" Ym="-4.80" size="20" service_rating="I" />
+    <Contact_id name="g" Xi="-.280" Yi="-.074" Xm="-7.11" Ym="-1.88" size="20" service_rating="I" />
+    <Contact_id name="h" Xi="-.280" Yi="+.057" Xm="-7.11" Ym="+1.45" size="20" service_rating="I" />
+    <Contact_id name="i" Xi="-.232" Yi="+.179" Xm="-5.89" Ym="+4.55" size="20" service_rating="I" />
+    <Contact_id name="j" Xi="-.126" Yi="+.256" Xm="-3.20" Ym="+6.50" size="20" service_rating="I" />
+    <Contact_id name="k" Xi=".000" Yi="+.164" Xm=".000" Ym="+4.17" size="20" service_rating="I" />
+    <Contact_id name="m" Xi="+.114" Yi="+.048" Xm="+2.90" Ym="+1.22" size="16" service_rating="I" />
+    <Contact_id name="n" Xi="+.106" Yi="-.107" Xm="+2.69" Ym="-2.72" size="20" service_rating="I" />
+    <Contact_id name="p" Xi=".000" Yi="-.189" Xm=".000" Ym="-4.80" size="20" service_rating="I" />
+    <Contact_id name="q" Xi="-.106" Yi="-.107" Xm="-2.69" Ym="-2.72" size="20" service_rating="I" />
+    <Contact_id name="r" Xi="-.114" Yi="+.048" Xm="-2.90" Ym="+1.22" size="16" service_rating="I" />
+  </Insert_arrangement>
+  <Insert_arrangement name="20-41" shell="20" arrangement="-41" supersedes="MS33714-41">
+    <Contact_id name="A" Xi=".000" Yi="+.418" Xm=".000" Ym="+10.62" size="20" service_rating="I" />
+    <Contact_id name="B" Xi="+.129" Yi="+.397" Xm="+3.28" Ym="+10.08" size="20" service_rating="I" />
+    <Contact_id name="C" Xi="+.245" Yi="+.338" Xm="+6.22" Ym="+8.59" size="20" service_rating="I" />
+    <Contact_id name="D" Xi="+.338" Yi="+.245" Xm="+8.59" Ym="+6.22" size="20" service_rating="I" />
+    <Contact_id name="E" Xi="+.397" Yi="+.129" Xm="+10.08" Ym="+3.28" size="20" service_rating="I" />
+    <Contact_id name="F" Xi="+.418" Yi=".000" Xm="+10.62" Ym=".000" size="20" service_rating="I" />
+    <Contact_id name="G" Xi="+.397" Yi="-.129" Xm="+10.08" Ym="-3.28" size="20" service_rating="I" />
+    <Contact_id name="H" Xi="+.338" Yi="-.245" Xm="+8.59" Ym="-6.22" size="20" service_rating="I" />
+    <Contact_id name="J" Xi="+.245" Yi="-.338" Xm="+6.22" Ym="-8.59" size="20" service_rating="I" />
+    <Contact_id name="K" Xi="+.129" Yi="-.397" Xm="+3.28" Ym="-10.08" size="20" service_rating="I" />
+    <Contact_id name="L" Xi=".000" Yi="-.418" Xm=".000" Ym="-10.62" size="20" service_rating="I" />
+    <Contact_id name="M" Xi="-.129" Yi="-.397" Xm="-3.28" Ym="-10.08" size="20" service_rating="I" />
+    <Contact_id name="N" Xi="-.245" Yi="-.338" Xm="-6.22" Ym="-8.59" size="20" service_rating="I" />
+    <Contact_id name="P" Xi="-.338" Yi="-.245" Xm="-8.59" Ym="-6.22" size="20" service_rating="I" />
+    <Contact_id name="R" Xi="-.397" Yi="-.129" Xm="-10.08" Ym="-3.28" size="20" service_rating="I" />
+    <Contact_id name="S" Xi="-.418" Yi=".000" Xm="-10.62" Ym=".000" size="20" service_rating="I" />
+    <Contact_id name="T" Xi="-.397" Yi="+.129" Xm="-10.08" Ym="+3.28" size="20" service_rating="I" />
+    <Contact_id name="U" Xi="-.338" Yi="+.245" Xm="-8.59" Ym="+6.22" size="20" service_rating="I" />
+    <Contact_id name="V" Xi="-.245" Yi="+.338" Xm="-6.22" Ym="+8.59" size="20" service_rating="I" />
+    <Contact_id name="W" Xi="-.129" Yi="+.397" Xm="-3.28" Ym="+10.08" size="20" service_rating="I" />
+    <Contact_id name="X" Xi=".000" Yi="+.284" Xm=".000" Ym="+7.20" size="20" service_rating="I" />
+    <Contact_id name="Y" Xi="+.132" Yi="+.251" Xm="+3.35" Ym="+6.38" size="20" service_rating="I" />
+    <Contact_id name="Z" Xi="+.233" Yi="+.161" Xm="+5.92" Ym="+4.09" size="20" service_rating="I" />
+    <Contact_id name="a" Xi="+.281" Yi="+.034" Xm="+7.14" Ym="+.867" size="20" service_rating="I" />
+    <Contact_id name="b" Xi="+.265" Yi="-.101" Xm="+6.73" Ym="-2.57" size="20" service_rating="I" />
+    <Contact_id name="c" Xi="+.188" Yi="-.212" Xm="+4.78" Ym="-5.38" size="20" service_rating="I" />
+    <Contact_id name="d" Xi="+.068" Yi="-.275" Xm="+1.73" Ym="-6.99" size="20" service_rating="I" />
+    <Contact_id name="e" Xi="-.068" Yi="-.275" Xm="-1.73" Ym="-6.99" size="20" service_rating="I" />
+    <Contact_id name="f" Xi="-.188" Yi="-.212" Xm="-4.78" Ym="-5.38" size="20" service_rating="I" />
+    <Contact_id name="g" Xi="-.265" Yi="-.101" Xm="-6.73" Ym="-2.57" size="20" service_rating="I" />
+    <Contact_id name="h" Xi="-.281" Yi="+.034" Xm="-7.14" Ym="+.867" size="20" service_rating="I" />
+    <Contact_id name="i" Xi="-.233" Yi="+.161" Xm="-5.92" Ym="+4.09" size="20" service_rating="I" />
+    <Contact_id name="j" Xi="-.132" Yi="+.251" Xm="-3.35" Ym="+6.38" size="20" service_rating="I" />
+    <Contact_id name="k" Xi=".000" Yi="+.150" Xm=".000" Ym="+3.81" size="20" service_rating="I" />
+    <Contact_id name="m" Xi="+.117" Yi="+.094" Xm="+2.97" Ym="+2.39" size="20" service_rating="I" />
+    <Contact_id name="n" Xi="+.146" Yi="-.033" Xm="+3.71" Ym="-0.84" size="20" service_rating="I" />
+    <Contact_id name="p" Xi="+.065" Yi="-.135" Xm="+1.65" Ym="-3.43" size="20" service_rating="I" />
+    <Contact_id name="q" Xi="-.065" Yi="-.135" Xm="-1.65" Ym="-3.43" size="20" service_rating="I" />
+    <Contact_id name="r" Xi="-.146" Yi="-.033" Xm="-3.71" Ym="-0.84" size="20" service_rating="I" />
+    <Contact_id name="s" Xi="-.117" Yi="+.094" Xm="-2.97" Ym="+2.39" size="20" service_rating="I" />
+    <Contact_id name="t" Xi=".000" Yi=".000" Xm=".000" Ym=".000" size="20" service_rating="I" />
+  </Insert_arrangement>
+  <Insert_arrangement name="20-90" shell="20" arrangement="-90" supersedes="MS33714-90">
+    <Contact_id name="A" Xi=".000" Yi="+.368" Xm=".000" Ym="+9.35" size="12" service_rating="I" />
+    <Contact_id name="B" Xi="+.224" Yi="+.292" Xm="+5.69" Ym="+7.42" size="12" service_rating="I" />
+    <Contact_id name="C" Xi="+.356" Yi="+.095" Xm="+9.04" Ym="+2.41" size="12" service_rating="I" />
+    <Contact_id name="D" Xi="+.341" Yi="-.142" Xm="+8.66" Ym="-3.61" size="12" service_rating="I" />
+    <Contact_id name="E" Xi="+.182" Yi="-.319" Xm="+4.62" Ym="-8.10" size="12" service_rating="I" />
+    <Contact_id name="F" Xi=".000" Yi="-.368" Xm=".000" Ym="-9.35" size="20" service_rating="I" />
+    <Contact_id name="G" Xi="-.182" Yi="-.319" Xm="-4.62" Ym="-8.10" size="12" service_rating="I" />
+    <Contact_id name="H" Xi="-.341" Yi="-.142" Xm="-8.66" Ym="-3.61" size="12" service_rating="I" />
+    <Contact_id name="J" Xi="-.356" Yi="+.095" Xm="-9.04" Ym="+2.41" size="12" service_rating="I" />
+    <Contact_id name="K" Xi="-.224" Yi="+.292" Xm="-5.69" Ym="+7.42" size="12" service_rating="I" />
+    <Contact_id name="L" Xi="+.120" Yi="+.079" Xm="+3.05" Ym="+2.01" size="12" service_rating="I" />
+    <Contact_id name="M" Xi="+.166" Yi="-.098" Xm="+4.22" Ym="-2.49" size="20" service_rating="I" />
+    <Contact_id name="N" Xi=".000" Yi="-.170" Xm=".000" Ym="-4.32" size="12" service_rating="I" />
+    <Contact_id name="P" Xi="-.166" Yi="-.098" Xm="-4.22" Ym="-2.49" size="20" service_rating="I" />
+    <Contact_id name="R" Xi="-.120" Yi="+.079" Xm="-3.05" Ym="+2.01" size="12" service_rating="I" />
+  </Insert_arrangement>
+  <Insert_arrangement name="22-12" shell="22" arrangement="-12" supersedes="MS33715-12">
+    <Contact_id name="A" Xi=".000" Yi="+.398" Xm="0.00" Ym="+10.11" size="12" service_rating="I" />
+    <Contact_id name="B" Xi="+.256" Yi="+.305" Xm="+6.50" Ym="+7.75" size="12" service_rating="I" />
+    <Contact_id name="C" Xi="+.392" Yi="+.069" Xm="+9.97" Ym="+1.73" size="12" service_rating="I" />
+    <Contact_id name="D" Xi="+.345" Yi="-.199" Xm="+8.76" Ym="-5.06" size="12" service_rating="I" />
+    <Contact_id name="E" Xi="+.136" Yi="-.374" Xm="+3.45" Ym="-9.50" size="12" service_rating="I" />
+    <Contact_id name="F" Xi="-.136" Yi="-.374" Xm="-3.45" Ym="-9.50" size="12" service_rating="I" />
+    <Contact_id name="G" Xi="-.345" Yi="-.199" Xm="-8.76" Ym="-5.06" size="12" service_rating="I" />
+    <Contact_id name="H" Xi="-.392" Yi="+.069" Xm="-9.97" Ym="+1.73" size="12" service_rating="I" />
+    <Contact_id name="J" Xi="-.256" Yi="+.305" Xm="-6.50" Ym="+7.75" size="12" service_rating="I" />
+    <Contact_id name="K" Xi="+.131" Yi="+.075" Xm="+3.33" Ym="+1.90" size="12" service_rating="I" />
+    <Contact_id name="L" Xi=".000" Yi="-.151" Xm="0.00" Ym="-3.83" size="12" service_rating="I" />
+    <Contact_id name="M" Xi="-.131" Yi="+.075" Xm="-3.33" Ym="+1.90" size="12" service_rating="I" />
+  </Insert_arrangement>
+  <Insert_arrangement name="22-19" shell="22" arrangement="-19" supersedes="MS33715-19">
+    <Contact_id name="A" Xi="+.114" Yi="+.425" Xm="+2.90" Ym="+10.80" size="12" service_rating="I" />
+    <Contact_id name="B" Xi="+.311" Yi="+.311" Xm="+7.90" Ym="+7.90" size="12" service_rating="I" />
+    <Contact_id name="C" Xi="+.425" Yi="+.114" Xm="+10.80" Ym="+2.90" size="12" service_rating="I" />
+    <Contact_id name="D" Xi="+.425" Yi="-.114" Xm="+10.80" Ym="-2.90" size="12" service_rating="I" />
+    <Contact_id name="E" Xi="+.311" Yi="-.311" Xm="+7.90" Ym="-7.90" size="12" service_rating="I" />
+    <Contact_id name="F" Xi="+.114" Yi="-.425" Xm="+2.90" Ym="-10.80" size="12" service_rating="I" />
+    <Contact_id name="G" Xi="-.114" Yi="-.425" Xm="-2.90" Ym="-10.80" size="12" service_rating="I" />
+    <Contact_id name="H" Xi="-.311" Yi="-.311" Xm="-7.90" Ym="-7.90" size="12" service_rating="I" />
+    <Contact_id name="J" Xi="-.425" Yi="-.114" Xm="-10.80" Ym="-2.90" size="12" service_rating="I" />
+    <Contact_id name="K" Xi="-.425" Yi="+.114" Xm="-10.80" Ym="+2.90" size="12" service_rating="I" />
+    <Contact_id name="L" Xi="-.311" Yi="+.311" Xm="-7.90" Ym="+7.90" size="12" service_rating="I" />
+    <Contact_id name="M" Xi="-.114" Yi="+.425" Xm="-2.90" Ym="+10.80" size="12" service_rating="I" />
+    <Contact_id name="N" Xi=".000" Yi="+.228" Xm=".000" Ym="+5.79" size="12" service_rating="I" />
+    <Contact_id name="P" Xi="+.197" Yi="+.114" Xm="+5.00" Ym="+2.90" size="12" service_rating="I" />
+    <Contact_id name="R" Xi="+.197" Yi="-.114" Xm="+5.00" Ym="-2.90" size="12" service_rating="I" />
+    <Contact_id name="S" Xi=".000" Yi="-.228" Xm=".000" Ym="-5.79" size="12" service_rating="I" />
+    <Contact_id name="T" Xi="-.197" Yi="-.114" Xm="-5.00" Ym="-2.90" size="12" service_rating="I" />
+    <Contact_id name="U" Xi="-.197" Yi="+.114" Xm="-5.00" Ym="+2.90" size="12" service_rating="I" />
+    <Contact_id name="V" Xi=".000" Yi=".000" Xm=".000" Ym=".000" size="12" service_rating="I" />
+  </Insert_arrangement>
+  <Insert_arrangement name="22-21" shell="22" arrangement="-21" supersedes="MS33715-21">
+    <Contact_id name="A" Xi="+.128" Yi="+.385" Xm="+3.25" Ym="+9.78" size="16" service_rating="II" />
+    <Contact_id name="B" Xi="+.289" Yi="+.285" Xm="+7.34" Ym="+7.24" size="16" service_rating="II" />
+    <Contact_id name="C" Xi="+.386" Yi="+.123" Xm="+9.80" Ym="+3.12" size="16" service_rating="II" />
+    <Contact_id name="D" Xi="+.400" Yi="-.065" Xm="+10.16" Ym="-1.65" size="16" service_rating="II" />
+    <Contact_id name="E" Xi="+.328" Yi="-.239" Xm="+8.33" Ym="-6.07" size="16" service_rating="II" />
+    <Contact_id name="F" Xi="+.183" Yi="-.362" Xm="+4.65" Ym="-9.19" size="16" service_rating="II" />
+    <Contact_id name="G" Xi=".000" Yi="-.406" Xm=".000" Ym="-10.31" size="16" service_rating="II" />
+    <Contact_id name="H" Xi="-.183" Yi="-.362" Xm="-4.65" Ym="-9.19" size="16" service_rating="II" />
+    <Contact_id name="J" Xi="-.328" Yi="-.239" Xm="-8.33" Ym="-6.07" size="16" service_rating="II" />
+    <Contact_id name="K" Xi="-.400" Yi="-.065" Xm="-10.16" Ym="-1.65" size="16" service_rating="II" />
+    <Contact_id name="L" Xi="-.386" Yi="+.123" Xm="-9808" Ym="+3.12" size="16" service_rating="II" />
+    <Contact_id name="M" Xi="-.289" Yi="+.285" Xm="-7.34" Ym="+7.24" size="16" service_rating="II" />
+    <Contact_id name="N" Xi="-.128" Yi="+.385" Xm="-3.25" Ym="+9.78" size="16" service_rating="II" />
+    <Contact_id name="P" Xi=".000" Yi="+.245" Xm=".000" Ym="+6.22" size="16" service_rating="II" />
+    <Contact_id name="R" Xi="+.160" Yi="+.146" Xm="+4.06" Ym="+3.71" size="16" service_rating="II" />
+    <Contact_id name="S" Xi="+.214" Yi="-.035" Xm="+5.44" Ym="-0.89" size="16" service_rating="II" />
+    <Contact_id name="T" Xi="+.094" Yi="-.194" Xm="+2.39" Ym="-4.93" size="16" service_rating="II" />
+    <Contact_id name="U" Xi="-.094" Yi="-.194" Xm="-2.39" Ym="-4.93" size="16" service_rating="II" />
+    <Contact_id name="V" Xi="-.214" Yi="-.035" Xm="-5.44" Ym="-0.89" size="16" service_rating="II" />
+    <Contact_id name="W" Xi="-.160" Yi="+.146" Xm="-4.06" Ym="+3.71" size="16" service_rating="II" />
+    <Contact_id name="X" Xi=".000" Yi=".000" Xm=".000" Ym=".000" size="16" service_rating="II" />
+  </Insert_arrangement>
+  <Insert_arrangement name="22-32" shell="22" arrangement="-32" supersedes="MS33715-32 MS27732-32 MS33715-18">
+    <Contact_id name="A" Xi="+.100" Yi="+.450" Xm="+2.54" Ym="+11.43" size="20" service_rating="I" />
+    <Contact_id name="B" Xi="+.325" Yi="+.325" Xm="+8.25" Ym="+8.25" size="20" service_rating="I" />
+    <Contact_id name="C" Xi="+.425" Yi="+.150" Xm="+10.80" Ym="+3.81" size="20" service_rating="I" />
+    <Contact_id name="D" Xi="+.450" Yi="-.075" Xm="+11.43" Ym="-1.90" size="20" service_rating="I" />
+    <Contact_id name="E" Xi="+.375" Yi="-.275" Xm="+9.52" Ym="-6.99" size="20" service_rating="I" />
+    <Contact_id name="F" Xi="+.200" Yi="-.400" Xm="+5.08" Ym="-10.16" size="20" service_rating="I" />
+    <Contact_id name="G" Xi=".000" Yi="-.450" Xm=".000" Ym="-11.43" size="20" service_rating="I" />
+    <Contact_id name="H" Xi="-.200" Yi="-.400" Xm="-5.08" Ym="-10.16" size="20" service_rating="I" />
+    <Contact_id name="J" Xi="-.375" Yi="-.275" Xm="-9.52" Ym="-6.99" size="20" service_rating="I" />
+    <Contact_id name="K" Xi="-.450" Yi="-.075" Xm="-11.43" Ym="-1.90" size="20" service_rating="I" />
+    <Contact_id name="L" Xi="-.425" Yi="+.150" Xm="-10.80" Ym="+3.81" size="20" service_rating="I" />
+    <Contact_id name="M" Xi="-.325" Yi="+.325" Xm="-8.25" Ym="+8.25" size="20" service_rating="I" />
+    <Contact_id name="N" Xi="-.100" Yi="+.450" Xm="-2.54" Ym="+11.43" size="20" service_rating="I" />
+    <Contact_id name="P" Xi=".000" Yi="+.325" Xm=".000" Ym="+8.25" size="20" service_rating="I" />
+    <Contact_id name="R" Xi="+.150" Yi="+.300" Xm="+3.81" Ym="+7.62" size="20" service_rating="I" />
+    <Contact_id name="S" Xi="+.250" Yi="+.175" Xm="+6.35" Ym="+4.44" size="20" service_rating="I" />
+    <Contact_id name="T" Xi="+.325" Yi="+.025" Xm="+8.25" Ym="+0.63" size="20" service_rating="I" />
+    <Contact_id name="U" Xi="+.300" Yi="-.125" Xm="+7.62" Ym="-3.18" size="20" service_rating="I" />
+    <Contact_id name="V" Xi="+.200" Yi="-.250" Xm="+5.08" Ym="-6.35" size="20" service_rating="I" />
+    <Contact_id name="W" Xi=".000" Yi="-.300" Xm=".000" Ym="-7.62" size="20" service_rating="I" />
+    <Contact_id name="X" Xi="-.200" Yi="-.250" Xm="-5.08" Ym="-6.35" size="20" service_rating="I" />
+    <Contact_id name="Y" Xi="-.300" Yi="-.125" Xm="-7.62" Ym="-3.18" size="20" service_rating="I" />
+    <Contact_id name="Z" Xi="-.325" Yi="+.025" Xm="-8.25" Ym="+0.63" size="20" service_rating="I" />
+    <Contact_id name="a" Xi="-.250" Yi="+.175" Xm="-6.35" Ym="+4.44" size="20" service_rating="I" />
+    <Contact_id name="b" Xi="-.150" Yi="+.300" Xm="-3.81" Ym="+7.62" size="20" service_rating="I" />
+    <Contact_id name="c" Xi="+.100" Yi="+.150" Xm="+2.54" Ym="+3.81" size="20" service_rating="I" />
+    <Contact_id name="d" Xi="+.150" Yi=".000" Xm="+3.81" Ym=".000" size="20" service_rating="I" />
+    <Contact_id name="e" Xi="+.075" Yi="-.150" Xm="+1.90" Ym="-3.81" size="20" service_rating="I" />
+    <Contact_id name="f" Xi="-.075" Yi="-.150" Xm="-1.90" Ym="-3.81" size="20" service_rating="I" />
+    <Contact_id name="g" Xi="-.150" Yi=".000" Xm="-3.81" Ym=".000" size="20" service_rating="I" />
+    <Contact_id name="h" Xi="-.100" Yi="+.150" Xm="-2.54" Ym="+3.81" size="20" service_rating="I" />
+    <Contact_id name="j" Xi=".000" Yi=".000" Xm=".000" Ym=".000" size="20" service_rating="I" />
+  </Insert_arrangement>
+  <Insert_arrangement name="22-34" shell="22" arrangement="-34" supersedes="MS33715-34 MS27732-34">
+    <Contact_id name="A" Xi=".000" Yi="+.450" Xm=".000" Ym="+11.43" size="20" service_rating="I" />
+    <Contact_id name="B" Xi="+.175" Yi="+.425" Xm="+4.44" Ym="+10.80" size="20" service_rating="I" />
+    <Contact_id name="C" Xi="+.325" Yi="+.325" Xm="+8.25" Ym="+8.25" size="20" service_rating="I" />
+    <Contact_id name="D" Xi="+.425" Yi="+.175" Xm="+10.80" Ym="+4.44" size="20" service_rating="I" />
+    <Contact_id name="E" Xi="+.450" Yi="+.025" Xm="+11.43" Ym="+0.63" size="20" service_rating="I" />
+    <Contact_id name="F" Xi="+.450" Yi="-.125" Xm="+11.43" Ym="-3.18" size="20" service_rating="I" />
+    <Contact_id name="G" Xi="+.375" Yi="-.275" Xm="+9.52" Ym="-6.99" size="20" service_rating="I" />
+    <Contact_id name="H" Xi="+.250" Yi="-.375" Xm="+6.35" Ym="-9.52" size="20" service_rating="I" />
+    <Contact_id name="J" Xi="+.100" Yi="-.450" Xm="+2.54" Ym="-11.43" size="20" service_rating="I" />
+    <Contact_id name="K" Xi="-.100" Yi="-.450" Xm="-2.54" Ym="-11.43" size="20" service_rating="I" />
+    <Contact_id name="L" Xi="-.250" Yi="-.375" Xm="-6.35" Ym="-9.52" size="20" service_rating="I" />
+    <Contact_id name="M" Xi="-.375" Yi="-.275" Xm="-9.52" Ym="-6.99" size="20" service_rating="I" />
+    <Contact_id name="N" Xi="-.450" Yi="-.125" Xm="-11.43" Ym="-3.18" size="20" service_rating="I" />
+    <Contact_id name="P" Xi="-.450" Yi="+.025" Xm="-11.43" Ym="+0.63" size="20" service_rating="I" />
+    <Contact_id name="R" Xi="-.425" Yi="+.175" Xm="-10.80" Ym="+4.44" size="20" service_rating="I" />
+    <Contact_id name="S" Xi="-.325" Yi="+.325" Xm="-8.25" Ym="+8.25" size="20" service_rating="I" />
+    <Contact_id name="T" Xi="-.175" Yi="+.425" Xm="-4.44" Ym="+10.80" size="20" service_rating="I" />
+    <Contact_id name="U" Xi=".000" Yi="+.300" Xm=".000" Ym="+7.62" size="20" service_rating="I" />
+    <Contact_id name="V" Xi="+.200" Yi="+.225" Xm="+5.08" Ym="+5.71" size="20" service_rating="I" />
+    <Contact_id name="W" Xi="+.300" Yi="+.050" Xm="+7.62" Ym="+1.27" size="20" service_rating="I" />
+    <Contact_id name="X" Xi="+.300" Yi="-.100" Xm="+7.62" Ym="-2.54" size="20" service_rating="I" />
+    <Contact_id name="Y" Xi="+.150" Yi="-.250" Xm="+3.81" Ym="-6.35" size="20" service_rating="I" />
+    <Contact_id name="Z" Xi=".000" Yi="-.300" Xm=".000" Ym="-7.62" size="20" service_rating="I" />
+    <Contact_id name="a" Xi="-.150" Yi="-.250" Xm="-3.81" Ym="-6.35" size="20" service_rating="I" />
+    <Contact_id name="b" Xi="-.300" Yi="-.100" Xm="-7.62" Ym="-2.54" size="20" service_rating="I" />
+    <Contact_id name="c" Xi="-.300" Yi="+.050" Xm="-7.62" Ym="+1.27" size="20" service_rating="I" />
+    <Contact_id name="d" Xi="-.200" Yi="+.225" Xm="-5.08" Ym="+5.71" size="20" service_rating="I" />
+    <Contact_id name="e" Xi=".000" Yi="+.150" Xm=".000" Ym="+3.81" size="20" service_rating="I" />
+    <Contact_id name="f" Xi="+.150" Yi="+.050" Xm="+3.81" Ym="+1.27" size="20" service_rating="I" />
+    <Contact_id name="g" Xi="+.150" Yi="-.100" Xm="+3.81" Ym="-2.54" size="20" service_rating="I" />
+    <Contact_id name="h" Xi=".000" Yi="-.150" Xm=".000" Ym="-3.81" size="20" service_rating="I" />
+    <Contact_id name="j" Xi="-.150" Yi="-.100" Xm="-3.81" Ym="-2.54" size="20" service_rating="I" />
+    <Contact_id name="k" Xi="-.150" Yi="+.050" Xm="-3.81" Ym="+1.27" size="20" service_rating="I" />
+    <Contact_id name="l" Xi=".000" Yi=".000" Xm=".000" Ym=".000" size="20" service_rating="I" />
+  </Insert_arrangement>
+  <Insert_arrangement name="22-41" shell="22" arrangement="-41" supersedes="MS33715-41">
+    <Contact_id name="A" Xi="+.132" Yi="+.472" Xm="+3.35" Ym="+11.99" size="20" service_rating="I" />
+    <Contact_id name="B" Xi="+.255" Yi="+.418" Xm="+6.48" Ym="+10.62" size="20" service_rating="I" />
+    <Contact_id name="C" Xi="+.358" Yi="+.334" Xm="+9.09" Ym="+8.48" size="20" service_rating="I" />
+    <Contact_id name="D" Xi="+.435" Yi="+.225" Xm="+11.04" Ym="+5.71" size="20" service_rating="I" />
+    <Contact_id name="E" Xi="+.480" Yi="+.099" Xm="+12.19" Ym="+2.51" size="20" service_rating="I" />
+    <Contact_id name="F" Xi="+.489" Yi="-.034" Xm="+12.42" Ym="-0.86" size="20" service_rating="I" />
+    <Contact_id name="G" Xi="+.462" Yi="-.165" Xm="+11.73" Ym="-4.19" size="20" service_rating="I" />
+    <Contact_id name="H" Xi="+.400" Yi="-.283" Xm="+10.16" Ym="-7.19" size="20" service_rating="I" />
+    <Contact_id name="J" Xi="+.308" Yi="-.381" Xm="+7.82" Ym="-9.68" size="20" service_rating="I" />
+    <Contact_id name="K" Xi="+.194" Yi="-.450" Xm="+4.93" Ym="-11.43" size="20" service_rating="I" />
+    <Contact_id name="L" Xi="+.067" Yi="-.486" Xm="+1.70" Ym="-12.34" size="20" service_rating="I" />
+    <Contact_id name="M" Xi="-.067" Yi="-.486" Xm="-1.70" Ym="-12.34" size="20" service_rating="I" />
+    <Contact_id name="N" Xi="-.194" Yi="-.450" Xm="-4.93" Ym="-11.43" size="20" service_rating="I" />
+    <Contact_id name="P" Xi="-.308" Yi="-.381" Xm="-7.82" Ym="-9.68" size="20" service_rating="I" />
+    <Contact_id name="R" Xi="-.400" Yi="-.283" Xm="-10.16" Ym="-7.19" size="20" service_rating="I" />
+    <Contact_id name="S" Xi="-.462" Yi="-.165" Xm="-11.73" Ym="-4.19" size="20" service_rating="I" />
+    <Contact_id name="T" Xi="-.489" Yi="-.034" Xm="-12.42" Ym="-0.86" size="20" service_rating="I" />
+    <Contact_id name="U" Xi="-.480" Yi="+.099" Xm="-12.19" Ym="+2.51" size="20" service_rating="I" />
+    <Contact_id name="V" Xi="-.435" Yi="+.225" Xm="-11.04" Ym="+5.71" size="20" service_rating="I" />
+    <Contact_id name="W" Xi="-.358" Yi="+.334" Xm="-9.09" Ym="+8.48" size="20" service_rating="I" />
+    <Contact_id name="X" Xi="-.255" Yi="+.418" Xm="-6.48" Ym="+10.62" size="20" service_rating="I" />
+    <Contact_id name="Y" Xi="-.132" Yi="+.472" Xm="-3.35" Ym="+11.99" size="20" service_rating="I" />
+    <Contact_id name="Z" Xi=".000" Yi="+.376" Xm=".000" Ym="+9.55" size="16" service_rating="I" />
+    <Contact_id name="a" Xi="+.163" Yi="+.282" Xm="+4.14" Ym="+7.16" size="16" service_rating="I" />
+    <Contact_id name="b" Xi="+.299" Yi="+.173" Xm="+7.59" Ym="+4.39" size="20" service_rating="I" />
+    <Contact_id name="c" Xi="+.326" Yi=".000" Xm="+8.28" Ym=".000" size="16" service_rating="I" />
+    <Contact_id name="d" Xi="+.308" Yi="-.173" Xm="+7.82" Ym="-4.39" size="20" service_rating="I" />
+    <Contact_id name="e" Xi="+.163" Yi="-.282" Xm="+4.14" Ym="-7.16" size="16" service_rating="I" />
+    <Contact_id name="f" Xi=".000" Yi="-.344" Xm=".000" Ym="-8.74" size="20" service_rating="I" />
+    <Contact_id name="g" Xi="-.163" Yi="-.282" Xm="-4.14" Ym="-7.16" size="16" service_rating="I" />
+    <Contact_id name="h" Xi="-.308" Yi="-.173" Xm="-7.82" Ym="-4.39" size="20" service_rating="I" />
+    <Contact_id name="i" Xi="-.326" Yi=".000" Xm="-8.28" Ym=".000" size="16" service_rating="I" />
+    <Contact_id name="j" Xi="-.299" Yi="+.173" Xm="-7.59" Ym="+4.39" size="20" service_rating="I" />
+    <Contact_id name="k" Xi="-.163" Yi="+.282" Xm="-4.14" Ym="+7.16" size="16" service_rating="I" />
+    <Contact_id name="m" Xi=".000" Yi="+.188" Xm=".000" Ym="+4.77" size="16" service_rating="I" />
+    <Contact_id name="n" Xi="+.163" Yi="+.094" Xm="+4.14" Ym="+2.39" size="16" service_rating="I" />
+    <Contact_id name="p" Xi="+.163" Yi="-.094" Xm="+4.14" Ym="-2.39" size="16" service_rating="I" />
+    <Contact_id name="q" Xi=".000" Yi="-.188" Xm=".000" Ym="-4.77" size="16" service_rating="I" />
+    <Contact_id name="r" Xi="-.163" Yi="-.094" Xm="-4.14" Ym="-2.39" size="16" service_rating="I" />
+    <Contact_id name="s" Xi="-.163" Yi="+.094" Xm="-4.14" Ym="+2.39" size="16" service_rating="I" />
+    <Contact_id name="t" Xi=".000" Yi=".000" Xm=".000" Ym=".000" size="16" service_rating="I" />
+  </Insert_arrangement>
+  <Insert_arrangement name="22-55" shell="22" arrangement="-55" supersedes="MS33715-55">
+    <Contact_id name="A" Xi="+.112" Yi="+.455" Xm="+2.84" Ym="+11.56" size="20" service_rating="I" />
+    <Contact_id name="B" Xi="+.225" Yi="+.390" Xm="+5.71" Ym="+9.91" size="20" service_rating="I" />
+    <Contact_id name="C" Xi="+.336" Yi="+.325" Xm="+8.53" Ym="+8.25" size="20" service_rating="I" />
+    <Contact_id name="D" Xi="+.450" Yi="+.130" Xm="+11.43" Ym="+3.30" size="20" service_rating="I" />
+    <Contact_id name="E" Xi="+.450" Yi=".000" Xm="+11.43" Ym=".000" size="20" service_rating="I" />
+    <Contact_id name="F" Xi="+.450" Yi="-.130" Xm="+11.43" Ym="-3.30" size="20" service_rating="I" />
+    <Contact_id name="G" Xi="+.336" Yi="-.325" Xm="+8.53" Ym="-8.25" size="20" service_rating="I" />
+    <Contact_id name="H" Xi="+.225" Yi="-.390" Xm="+5.71" Ym="-9.91" size="20" service_rating="I" />
+    <Contact_id name="J" Xi="+.112" Yi="-.455" Xm="+2.84" Ym="-11.56" size="20" service_rating="I" />
+    <Contact_id name="K" Xi="-.112" Yi="-.455" Xm="-2.84" Ym="-11.56" size="20" service_rating="I" />
+    <Contact_id name="L" Xi="-.225" Yi="-.390" Xm="-5.71" Ym="-9.91" size="20" service_rating="I" />
+    <Contact_id name="M" Xi="-.336" Yi="-.325" Xm="-8.53" Ym="-8.25" size="20" service_rating="I" />
+    <Contact_id name="N" Xi="-.450" Yi="-.130" Xm="-11.43" Ym="-3.30" size="20" service_rating="I" />
+    <Contact_id name="P" Xi="-.450" Yi=".000" Xm="-11.43" Ym=".000" size="20" service_rating="I" />
+    <Contact_id name="R" Xi="-.450" Yi="+.130" Xm="-11.43" Ym="+3.30" size="20" service_rating="I" />
+    <Contact_id name="S" Xi="-.336" Yi="+.325" Xm="-8.53" Ym="+8.25" size="20" service_rating="I" />
+    <Contact_id name="T" Xi="-.225" Yi="+.390" Xm="-5.71" Ym="+9.91" size="20" service_rating="I" />
+    <Contact_id name="U" Xi="-.112" Yi="+.455" Xm="-2.84" Ym="+11.56" size="20" service_rating="I" />
+    <Contact_id name="V" Xi=".000" Yi="+.390" Xm=".000" Ym="+9.91" size="20" service_rating="I" />
+    <Contact_id name="W" Xi="+.112" Yi="+.325" Xm="+2.84" Ym="+8.25" size="20" service_rating="I" />
+    <Contact_id name="X" Xi="+.225" Yi="+.260" Xm="+5.71" Ym="+6.60" size="20" service_rating="I" />
+    <Contact_id name="Y" Xi="+.336" Yi="+.195" Xm="+8.53" Ym="+4.95" size="20" service_rating="I" />
+    <Contact_id name="Z" Xi="+.336" Yi="+.065" Xm="+8.53" Ym="+1.65" size="20" service_rating="I" />
+    <Contact_id name="a" Xi="+.336" Yi="-.065" Xm="+8.53" Ym="-1.65" size="20" service_rating="I" />
+    <Contact_id name="b" Xi="+.336" Yi="-.195" Xm="+8.53" Ym="-4.95" size="20" service_rating="I" />
+    <Contact_id name="c" Xi="+.225" Yi="-.260" Xm="+5.71" Ym="-6.60" size="20" service_rating="I" />
+    <Contact_id name="d" Xi="+.112" Yi="-.325" Xm="+2.84" Ym="-8.25" size="20" service_rating="I" />
+    <Contact_id name="e" Xi=".000" Yi="-.390" Xm=".000" Ym="-9.91" size="20" service_rating="I" />
+    <Contact_id name="f" Xi="-.112" Yi="-.325" Xm="-2.84" Ym="-8.25" size="20" service_rating="I" />
+    <Contact_id name="g" Xi="-.225" Yi="-.260" Xm="-5.71" Ym="-6.60" size="20" service_rating="I" />
+    <Contact_id name="h" Xi="-.336" Yi="-.195" Xm="-8.53" Ym="-4.95" size="20" service_rating="I" />
+    <Contact_id name="i" Xi="-.336" Yi="-.065" Xm="-8.53" Ym="-1.65" size="20" service_rating="I" />
+    <Contact_id name="j" Xi="-.336" Yi="+.065" Xm="-8.53" Ym="+1.65" size="20" service_rating="I" />
+    <Contact_id name="k" Xi="-.336" Yi="+.195" Xm="-8.53" Ym="+4.95" size="20" service_rating="I" />
+    <Contact_id name="m" Xi="-.225" Yi="+.260" Xm="-5.71" Ym="+6.60" size="20" service_rating="I" />
+    <Contact_id name="n" Xi="-.112" Yi="+.325" Xm="-2.84" Ym="+8.25" size="20" service_rating="I" />
+    <Contact_id name="p" Xi=".000" Yi="+.260" Xm=".000" Ym="+6.60" size="20" service_rating="I" />
+    <Contact_id name="q" Xi="+.112" Yi="+.195" Xm="+2.84" Ym="+4.95" size="20" service_rating="I" />
+    <Contact_id name="r" Xi="+.225" Yi="+.130" Xm="+5.71" Ym="+3.30" size="20" service_rating="I" />
+    <Contact_id name="s" Xi="+.225" Yi=".000" Xm="+5.71" Ym=".000" size="20" service_rating="I" />
+    <Contact_id name="t" Xi="+.225" Yi="-.130" Xm="+5.71" Ym="-3.30" size="20" service_rating="I" />
+    <Contact_id name="u" Xi="+.112" Yi="-.195" Xm="+2.84" Ym="-4.95" size="20" service_rating="I" />
+    <Contact_id name="v" Xi=".000" Yi="-.260" Xm=".000" Ym="-6.60" size="20" service_rating="I" />
+    <Contact_id name="w" Xi="-.112" Yi="-.195" Xm="-2.84" Ym="-4.95" size="20" service_rating="I" />
+    <Contact_id name="x" Xi="-.225" Yi="-.130" Xm="-5.71" Ym="-3.30" size="20" service_rating="I" />
+    <Contact_id name="y" Xi="-.225" Yi=".000" Xm="-5.71" Ym=".000" size="20" service_rating="I" />
+    <Contact_id name="z" Xi="-.225" Yi="+.130" Xm="-5.71" Ym="+3.30" size="20" service_rating="I" />
+    <Contact_id name="AA" Xi="-.112" Yi="+.195" Xm="-2.84" Ym="+4.95" size="20" service_rating="I" />
+    <Contact_id name="BB" Xi=".000" Yi="+.130" Xm=".000" Ym="+3.30" size="20" service_rating="I" />
+    <Contact_id name="CC" Xi="+.112" Yi="+.065" Xm="+2.84" Ym="+1.65" size="20" service_rating="I" />
+    <Contact_id name="DD" Xi="+.112" Yi="-.065" Xm="+2.84" Ym="-1.65" size="20" service_rating="I" />
+    <Contact_id name="EE" Xi=".000" Yi="-.130" Xm=".000" Ym="-3.30" size="20" service_rating="I" />
+    <Contact_id name="FF" Xi="-.112" Yi="-.065" Xm="-2.84" Ym="-1.65" size="20" service_rating="I" />
+    <Contact_id name="GG" Xi="-.112" Yi="+.065" Xm="-2.84" Ym="+1.65" size="20" service_rating="I" />
+    <Contact_id name="HH" Xi=".000" Yi=".000" Xm=".000" Ym=".000" size="20" service_rating="I" />
+  </Insert_arrangement>
+  <Insert_arrangement name="22-95" shell="22" arrangement="-95" supersedes="MS33715-95">
+    <Contact_id name="A" Xi=".000" Yi="+.470" Xm=".000" Ym="+11.94" size="20" service_rating="I" />
+    <Contact_id name="B" Xi="+.138" Yi="+.449" Xm="+3.50" Ym="+11.40" size="20" service_rating="I" />
+    <Contact_id name="C" Xi="+.265" Yi="+.388" Xm="+6.73" Ym="+9.86" size="20" service_rating="I" />
+    <Contact_id name="D" Xi="+.367" Yi="+.293" Xm="+9.32" Ym="+7.44" size="20" service_rating="I" />
+    <Contact_id name="E" Xi="+.437" Yi="+.172" Xm="+11.10" Ym="+4.37" size="20" service_rating="I" />
+    <Contact_id name="F" Xi="+.469" Yi="+.035" Xm="+11.91" Ym="+0.89" size="20" service_rating="I" />
+    <Contact_id name="G" Xi="+.458" Yi="-.104" Xm="+11.63" Ym="-2.64" size="20" service_rating="I" />
+    <Contact_id name="H" Xi="+.407" Yi="-.234" Xm="+10.34" Ym="-5.94" size="20" service_rating="I" />
+    <Contact_id name="J" Xi="+.320" Yi="-.344" Xm="+8.13" Ym="-8.74" size="20" service_rating="I" />
+    <Contact_id name="K" Xi="+.205" Yi="-.423" Xm="+5.21" Ym="-10.74" size="20" service_rating="I" />
+    <Contact_id name="L" Xi="+.070" Yi="-.465" Xm="+1.78" Ym="-11.81" size="20" service_rating="I" />
+    <Contact_id name="M" Xi="-.070" Yi="-.465" Xm="-1.78" Ym="-11.81" size="20" service_rating="I" />
+    <Contact_id name="N" Xi="-.205" Yi="-.423" Xm="-5.21" Ym="-10.74" size="20" service_rating="I" />
+    <Contact_id name="P" Xi="-.320" Yi="-.344" Xm="-8.13" Ym="-8.74" size="20" service_rating="I" />
+    <Contact_id name="R" Xi="-.407" Yi="-.234" Xm="-10.34" Ym="-5.94" size="20" service_rating="I" />
+    <Contact_id name="S" Xi="-.458" Yi="-.104" Xm="-11.63" Ym="-2.64" size="20" service_rating="I" />
+    <Contact_id name="T" Xi="-.469" Yi="+.035" Xm="-11.91" Ym="+0.89" size="20" service_rating="I" />
+    <Contact_id name="U" Xi="-.437" Yi="+.172" Xm="-11.10" Ym="+4.37" size="20" service_rating="I" />
+    <Contact_id name="V" Xi="-.367" Yi="+.293" Xm="-9.32" Ym="+7.44" size="20" service_rating="I" />
+    <Contact_id name="W" Xi="-.265" Yi="+.388" Xm="-6.73" Ym="+9.86" size="20" service_rating="I" />
+    <Contact_id name="X" Xi="-.138" Yi="+.449" Xm="-3.50" Ym="+11.40" size="20" service_rating="I" />
+    <Contact_id name="Y" Xi=".000" Yi="+.250" Xm=".000" Ym="+6.35" size="12" service_rating="I" />
+    <Contact_id name="Z" Xi="+.191" Yi="+.283" Xm="+4.85" Ym="+7.19" size="20" service_rating="I" />
+    <Contact_id name="a" Xi="+.238" Yi="+.077" Xm="+6.04" Ym="+1.98" size="12" service_rating="I" />
+    <Contact_id name="b" Xi="+.309" Yi="-.100" Xm="+7.85" Ym="-2.54" size="20" service_rating="I" />
+    <Contact_id name="c" Xi="+.147" Yi="-.202" Xm="+3.73" Ym="-5.13" size="12" service_rating="I" />
+    <Contact_id name="d" Xi=".000" Yi="-.325" Xm=".000" Ym="-8.25" size="20" service_rating="I" />
+    <Contact_id name="e" Xi="-.147" Yi="-.202" Xm="-3.73" Ym="-5.13" size="12" service_rating="I" />
+    <Contact_id name="f" Xi="-.309" Yi="-.100" Xm="-7.85" Ym="-2.54" size="20" service_rating="I" />
+    <Contact_id name="g" Xi="-.238" Yi="+.077" Xm="-6.04" Ym="+1.98" size="12" service_rating="I" />
+    <Contact_id name="h" Xi="-.191" Yi="+.283" Xm="-4.85" Ym="+7.19" size="20" service_rating="I" />
+    <Contact_id name="i" Xi=".000" Yi=".000" Xm=".000" Ym=".000" size="12" service_rating="I" />
+  </Insert_arrangement>
+  <Insert_arrangement name="22-96" shell="22" arrangement="-96" supersedes="MS33715-96">
+    <Contact_id name="A" Xi=".000" Yi="+.360" Xm="0.00" Ym="+9.44" size="8" service_rating="I" />
+    <Contact_id name="B" Xi="+.312" Yi="+.180" Xm="+7.92" Ym="+4.57" size="8" service_rating="I" />
+    <Contact_id name="C" Xi="+.312" Yi="-.180" Xm="+7.92" Ym="-4.57" size="8" service_rating="I" />
+    <Contact_id name="D" Xi=".000" Yi="-.360" Xm="0.00" Ym="-9.44" size="8" service_rating="I" />
+    <Contact_id name="E" Xi="-.312" Yi="-.180" Xm="-7.92" Ym="-4.57" size="8" service_rating="I" />
+    <Contact_id name="F" Xi="-.312" Yi="+.180" Xm="-7.92" Ym="+4.57" size="8" service_rating="I" />
+    <Contact_id name="G" Xi=".000" Yi=".000" Xm="0.00" Ym="0.00" size="8" service_rating="I" />
+  </Insert_arrangement>
+  <Insert_arrangement name="24-19" shell="24" arrangement="-19" supersedes="MS33716-19 MS27733-19">
+    <Contact_id name="A" Xi=".000" Yi="+.412" Xm=".000" Ym="+10.46" size="12" service_rating="II" />
+    <Contact_id name="B" Xi="+.238" Yi="+.412" Xm="+6.04" Ym="+10.46" size="12" service_rating="II" />
+    <Contact_id name="C" Xi="+.357" Yi="+.206" Xm="+9.07" Ym="+5.23" size="12" service_rating="II" />
+    <Contact_id name="D" Xi="+.476" Yi=".000" Xm="+12.09" Ym=".000" size="12" service_rating="II" />
+    <Contact_id name="E" Xi="+.357" Yi="-.206" Xm="+9.07" Ym="-5.23" size="12" service_rating="II" />
+    <Contact_id name="F" Xi="+.238" Yi="-.412" Xm="+6.04" Ym="-10.46" size="12" service_rating="II" />
+    <Contact_id name="G" Xi=".000" Yi="-.412" Xm=".000" Ym="-10.46" size="12" service_rating="II" />
+    <Contact_id name="H" Xi="-.238" Yi="-.412" Xm="-6.04" Ym="-10.46" size="12" service_rating="II" />
+    <Contact_id name="J" Xi="-.357" Yi="-.206" Xm="-9.07" Ym="-5.23" size="12" service_rating="II" />
+    <Contact_id name="K" Xi="-.476" Yi=".000" Xm="-12.09" Ym=".000" size="12" service_rating="II" />
+    <Contact_id name="L" Xi="-.357" Yi="+.206" Xm="-9.07" Ym="+5.23" size="12" service_rating="II" />
+    <Contact_id name="M" Xi="-.238" Yi="+.412" Xm="-6.04" Ym="+10.46" size="12" service_rating="II" />
+    <Contact_id name="N" Xi="-.119" Yi="+.206" Xm="-3.02" Ym="+5.23" size="12" service_rating="II" />
+    <Contact_id name="P" Xi="+.119" Yi="+.206" Xm="+3.02" Ym="+5.23" size="12" service_rating="II" />
+    <Contact_id name="R" Xi="+.238" Yi=".000" Xm="+6.04" Ym=".000" size="12" service_rating="II" />
+    <Contact_id name="S" Xi="+.119" Yi="-.206" Xm="+3.02" Ym="-5.23" size="12" service_rating="II" />
+    <Contact_id name="T" Xi="-.119" Yi="-.206" Xm="-3.02" Ym="-5.23" size="12" service_rating="II" />
+    <Contact_id name="U" Xi="-.238" Yi=".000" Xm="-6.04" Ym=".000" size="12" service_rating="II" />
+    <Contact_id name="V" Xi=".000" Yi=".000" Xm=".000" Ym=".000" size="12" service_rating="II" />
+  </Insert_arrangement>
+  <Insert_arrangement name="24-27" shell="24" arrangement="-27" supersedes="MS33716-27">
+    <Contact_id name="A" Xi=".000" Yi="+.491" Xm=".000" Ym="+12.47" size="12" service_rating="I" />
+    <Contact_id name="B" Xi="+.246" Yi="+.425" Xm="+6.25" Ym="+10.80" size="12" service_rating="I" />
+    <Contact_id name="C" Xi="+.425" Yi="+.246" Xm="+10.80" Ym="+6.25" size="12" service_rating="I" />
+    <Contact_id name="D" Xi="+.491" Yi=".000" Xm="+12.47" Ym=".000" size="12" service_rating="I" />
+    <Contact_id name="E" Xi="+.425" Yi="-.246" Xm="+10.80" Ym="-6.25" size="12" service_rating="I" />
+    <Contact_id name="F" Xi="+.246" Yi="-.425" Xm="+6.25" Ym="-10.80" size="12" service_rating="I" />
+    <Contact_id name="G" Xi=".000" Yi="-.491" Xm=".000" Ym="-12.47" size="12" service_rating="I" />
+    <Contact_id name="H" Xi="-.246" Yi="-.425" Xm="-6.25" Ym="-10.80" size="12" service_rating="I" />
+    <Contact_id name="J" Xi="-.425" Yi="-.246" Xm="-10.80" Ym="-6.25" size="12" service_rating="I" />
+    <Contact_id name="K" Xi="-.491" Yi=".000" Xm="-12.47" Ym=".000" size="12" service_rating="I" />
+    <Contact_id name="L" Xi="-.425" Yi="+.246" Xm="-10.80" Ym="+6.25" size="12" service_rating="I" />
+    <Contact_id name="M" Xi="-.246" Yi="+.425" Xm="-6.25" Ym="+10.80" size="12" service_rating="I" />
+    <Contact_id name="N" Xi=".000" Yi="+.255" Xm=".000" Ym="+6.48" size="12" service_rating="I" />
+    <Contact_id name="P" Xi="+.184" Yi="+.239" Xm="+4.67" Ym="+6.07" size="20" service_rating="I" />
+    <Contact_id name="R" Xi="+.270" Yi="+.130" Xm="+6.86" Ym="+3.30" size="20" service_rating="I" />
+    <Contact_id name="S" Xi="+.301" Yi=".000" Xm="+7.64" Ym=".000" size="20" service_rating="I" />
+    <Contact_id name="T" Xi="+.210" Yi="-.156" Xm="+5.33" Ym="-3.97" size="12" service_rating="I" />
+    <Contact_id name="U" Xi=".000" Yi="-.255" Xm=".000" Ym="-6.48" size="12" service_rating="I" />
+    <Contact_id name="V" Xi="-.210" Yi="-.156" Xm="-5.33" Ym="-3.97" size="12" service_rating="I" />
+    <Contact_id name="W" Xi="-.301" Yi=".000" Xm="-7.64" Ym=".000" size="20" service_rating="I" />
+    <Contact_id name="X" Xi="-.270" Yi="+.130" Xm="-6.86" Ym="+3.30" size="20" service_rating="I" />
+    <Contact_id name="Y" Xi="-.184" Yi="+.239" Xm="-4.67" Ym="+6.07" size="20" service_rating="I" />
+    <Contact_id name="Z" Xi="+.137" Yi="+.103" Xm="+3.48" Ym="+2.62" size="20" service_rating="I" />
+    <Contact_id name="a" Xi="+.088" Yi="-.022" Xm="+2.23" Ym="-0.56" size="20" service_rating="I" />
+    <Contact_id name="b" Xi="-.088" Yi="-.022" Xm="-2.23" Ym="-0.56" size="20" service_rating="I" />
+    <Contact_id name="c" Xi="-.137" Yi="+.103" Xm="-3.48" Ym="+2.62" size="20" service_rating="I" />
+    <Contact_id name="d" Xi=".000" Yi="+.075" Xm=".000" Ym="+1.90" size="20" service_rating="I" />
+  </Insert_arrangement>
+  <Insert_arrangement name="24-31" shell="24" arrangement="-31" supersedes="MS33716-31 MS27737-31">
+    <Contact_id name="A" Xi="+.158" Yi="+.455" Xm="+4.01" Ym="+11.56" size="16" service_rating="I" />
+    <Contact_id name="B" Xi="+.316" Yi="+.364" Xm="+8.03" Ym="+9.25" size="16" service_rating="I" />
+    <Contact_id name="C" Xi="+.474" Yi="+.091" Xm="+12.04" Ym="+2.31" size="16" service_rating="I" />
+    <Contact_id name="D" Xi="+.474" Yi="-.091" Xm="+12.04" Ym="-2.31" size="16" service_rating="I" />
+    <Contact_id name="E" Xi="+.316" Yi="-.364" Xm="+8.03" Ym="-9.25" size="16" service_rating="I" />
+    <Contact_id name="F" Xi="+.158" Yi="-.455" Xm="+4.01" Ym="-11.56" size="16" service_rating="I" />
+    <Contact_id name="G" Xi="-.158" Yi="-.455" Xm="-4.01" Ym="-11.56" size="16" service_rating="I" />
+    <Contact_id name="H" Xi="-.316" Yi="-.364" Xm="-8.03" Ym="-9.25" size="16" service_rating="I" />
+    <Contact_id name="J" Xi="-.474" Yi="-.091" Xm="-12.04" Ym="-2.31" size="16" service_rating="I" />
+    <Contact_id name="K" Xi="-.474" Yi="+.091" Xm="-12.04" Ym="+2.31" size="16" service_rating="I" />
+    <Contact_id name="L" Xi="-.316" Yi="+.364" Xm="-8.03" Ym="+9.25" size="16" service_rating="I" />
+    <Contact_id name="M" Xi="-.158" Yi="-.455" Xm="-4.01" Ym="-11.56" size="16" service_rating="I" />
+    <Contact_id name="N" Xi=".000" Yi="+.364" Xm=".000" Ym="+9.25" size="16" service_rating="I" />
+    <Contact_id name="P" Xi="+.158" Yi="+.273" Xm="+4.01" Ym="+6.93" size="16" service_rating="I" />
+    <Contact_id name="Q" Xi="+.316" Yi="+.182" Xm="+8.03" Ym="+4.62" size="16" service_rating="I" />
+    <Contact_id name="R" Xi="+.316" Yi=".000" Xm="+8.03" Ym=".000" size="16" service_rating="I" />
+    <Contact_id name="S" Xi="+.316" Yi="-.182" Xm="+8.03" Ym="-4.62" size="16" service_rating="I" />
+    <Contact_id name="T" Xi="+.158" Yi="-.273" Xm="+4.01" Ym="-6.93" size="16" service_rating="I" />
+    <Contact_id name="U" Xi=".000" Yi="-.364" Xm=".000" Ym="-9.25" size="16" service_rating="I" />
+    <Contact_id name="V" Xi="-.158" Yi="-.273" Xm="-4.01" Ym="-6.93" size="16" service_rating="I" />
+    <Contact_id name="W" Xi="-.316" Yi="-.182" Xm="-8.03" Ym="-4.62" size="16" service_rating="I" />
+    <Contact_id name="X" Xi="-.316" Yi=".000" Xm="-8.03" Ym=".000" size="16" service_rating="I" />
+    <Contact_id name="Y" Xi="-.316" Yi="+.182" Xm="-8.03" Ym="+4.62" size="16" service_rating="I" />
+    <Contact_id name="Z" Xi="-.158" Yi="+.273" Xm="-4.01" Ym="+6.93" size="16" service_rating="I" />
+    <Contact_id name="a" Xi=".000" Yi="+.182" Xm=".000" Ym="+4.62" size="16" service_rating="I" />
+    <Contact_id name="b" Xi="+.158" Yi="+.091" Xm="+4.01" Ym="+2.31" size="16" service_rating="I" />
+    <Contact_id name="c" Xi="+.158" Yi="-.091" Xm="+4.01" Ym="-2.31" size="16" service_rating="I" />
+    <Contact_id name="d" Xi=".000" Yi="-.182" Xm=".000" Ym="-4.62" size="16" service_rating="I" />
+    <Contact_id name="e" Xi="-.158" Yi="-.091" Xm="-4.01" Ym="-2.31" size="16" service_rating="I" />
+    <Contact_id name="f" Xi="-.158" Yi="+.091" Xm="-4.01" Ym="+2.31" size="16" service_rating="I" />
+    <Contact_id name="g" Xi=".000" Yi=".000" Xm=".000" Ym=".000" size="16" service_rating="I" />
+  </Insert_arrangement>
+  <Insert_arrangement name="24-61" shell="24" arrangement="-61" supersedes="MS33716-61">
+    <Contact_id name="A" Xi="+.196" Yi="+.500" Xm="+4.98" Ym="+12.70" size="20" service_rating="I" />
+    <Contact_id name="B" Xi="+.314" Yi="+.435" Xm="+7.98" Ym="+11.05" size="20" service_rating="I" />
+    <Contact_id name="C" Xi="+.413" Yi="+.343" Xm="+10.49" Ym="+8.71" size="20" service_rating="I" />
+    <Contact_id name="D" Xi="+.485" Yi="+.230" Xm="+12.32" Ym="+5.84" size="20" service_rating="I" />
+    <Contact_id name="E" Xi="+.527" Yi="+.101" Xm="+13.39" Ym="+2.57" size="20" service_rating="I" />
+    <Contact_id name="F" Xi="+.536" Yi="-.030" Xm="+13.61" Ym="-0.76" size="20" service_rating="I" />
+    <Contact_id name="G" Xi="+.511" Yi="-.164" Xm="+12.98" Ym="-4.17" size="20" service_rating="I" />
+    <Contact_id name="H" Xi="+.454" Yi="-.287" Xm="+11.53" Ym="-7.29" size="20" service_rating="I" />
+    <Contact_id name="J" Xi="+.368" Yi="-.391" Xm="+9.35" Ym="-9.93" size="20" service_rating="I" />
+    <Contact_id name="K" Xi="+.259" Yi="-.470" Xm="+6.58" Ym="-11.94" size="20" service_rating="I" />
+    <Contact_id name="L" Xi="+.134" Yi="-.519" Xm="+3.40" Ym="-13.18" size="20" service_rating="I" />
+    <Contact_id name="M" Xi=".000" Yi="-.537" Xm=".000" Ym="-13.64" size="20" service_rating="I" />
+    <Contact_id name="N" Xi="-.134" Yi="-.519" Xm="-3.40" Ym="-13.18" size="20" service_rating="I" />
+    <Contact_id name="P" Xi="-.259" Yi="-.470" Xm="-6.58" Ym="-11.94" size="20" service_rating="I" />
+    <Contact_id name="R" Xi="-.368" Yi="-.391" Xm="-9.35" Ym="-9.93" size="20" service_rating="I" />
+    <Contact_id name="S" Xi="-.454" Yi="-.287" Xm="-11.53" Ym="-7.29" size="20" service_rating="I" />
+    <Contact_id name="T" Xi="-.511" Yi="-.164" Xm="-12.98" Ym="-4.17" size="20" service_rating="I" />
+    <Contact_id name="U" Xi="-.536" Yi="-.030" Xm="-13.61" Ym="-0.76" size="20" service_rating="I" />
+    <Contact_id name="V" Xi="-.527" Yi="+.101" Xm="-13.39" Ym="+2.57" size="20" service_rating="I" />
+    <Contact_id name="W" Xi="-.485" Yi="+.230" Xm="-12.32" Ym="+5.84" size="20" service_rating="I" />
+    <Contact_id name="X" Xi="-.413" Yi="+.343" Xm="-10.49" Ym="+8.71" size="20" service_rating="I" />
+    <Contact_id name="Y" Xi="-.314" Yi="+.435" Xm="-7.98" Ym="+11.05" size="20" service_rating="I" />
+    <Contact_id name="Z" Xi="-.196" Yi="+.500" Xm="-4.98" Ym="+12.70" size="20" service_rating="I" />
+    <Contact_id name="a" Xi="-.068" Yi="+.454" Xm="-1.73" Ym="+11.53" size="20" service_rating="I" />
+    <Contact_id name="b" Xi="+.068" Yi="+.454" Xm="+1.73" Ym="+11.53" size="20" service_rating="I" />
+    <Contact_id name="c" Xi="+.173" Yi="+.363" Xm="+4.39" Ym="+9.22" size="20" service_rating="I" />
+    <Contact_id name="d" Xi="+.285" Yi="+.283" Xm="+7.24" Ym="+7.19" size="20" service_rating="I" />
+    <Contact_id name="e" Xi="+.362" Yi="+.175" Xm="+9.19" Ym="+4.44" size="20" service_rating="I" />
+    <Contact_id name="f" Xi="+.399" Yi="+.046" Xm="+10.13" Ym="+1.17" size="20" service_rating="I" />
+    <Contact_id name="g" Xi="+.392" Yi="-.088" Xm="+9.97" Ym="-2.23" size="20" service_rating="I" />
+    <Contact_id name="h" Xi="+.341" Yi="-.213" Xm="+8.68" Ym="-5.41" size="20" service_rating="I" />
+    <Contact_id name="i" Xi="+.251" Yi="-.314" Xm="+6.37" Ym="-7.98" size="20" service_rating="I" />
+    <Contact_id name="j" Xi="+.133" Yi="-.379" Xm="+3.38" Ym="-9.627" size="20" service_rating="I" />
+    <Contact_id name="k" Xi=".000" Yi="-.402" Xm=".000" Ym="-10.21" size="20" service_rating="I" />
+    <Contact_id name="m" Xi="-.133" Yi="-.379" Xm="-3.38" Ym="-9.627" size="20" service_rating="I" />
+    <Contact_id name="n" Xi="-.251" Yi="-.314" Xm="-6.37" Ym="-7.98" size="20" service_rating="I" />
+    <Contact_id name="p" Xi="-.341" Yi="-.213" Xm="-8.68" Ym="-5.41" size="20" service_rating="I" />
+    <Contact_id name="q" Xi="-.392" Yi="-.088" Xm="-9.97" Ym="-2.23" size="20" service_rating="I" />
+    <Contact_id name="r" Xi="-.399" Yi="+.046" Xm="-10.13" Ym="+1.17" size="20" service_rating="I" />
+    <Contact_id name="s" Xi="-.362" Yi="+.175" Xm="-9.19" Ym="+4.44" size="20" service_rating="I" />
+    <Contact_id name="t" Xi="-.285" Yi="+.283" Xm="-7.24" Ym="+7.19" size="20" service_rating="I" />
+    <Contact_id name="u" Xi="-.173" Yi="+.363" Xm="-4.39" Ym="+9.22" size="20" service_rating="I" />
+    <Contact_id name="v" Xi=".000" Yi="+.338" Xm=".000" Ym="+8.58" size="20" service_rating="I" />
+    <Contact_id name="w" Xi="+.147" Yi="+.223" Xm="+3.73" Ym="+5.66" size="20" service_rating="I" />
+    <Contact_id name="x" Xi="+.237" Yi="+.122" Xm="+6.02" Ym="+3.10" size="20" service_rating="I" />
+    <Contact_id name="y" Xi="+.267" Yi="-.010" Xm="+6.78" Ym="-0.25" size="20" service_rating="I" />
+    <Contact_id name="z" Xi="+.228" Yi="-.139" Xm="+5.79" Ym="-3.53" size="20" service_rating="I" />
+    <Contact_id name="AA" Xi="+.131" Yi="-.233" Xm="+3.33" Ym="-5.92" size="20" service_rating="I" />
+    <Contact_id name="BB" Xi=".000" Yi="-.267" Xm=".000" Ym="-6.78" size="20" service_rating="I" />
+    <Contact_id name="CC" Xi="-.131" Yi="-.233" Xm="-3.33" Ym="-5.92" size="20" service_rating="I" />
+    <Contact_id name="DD" Xi="-.228" Yi="-.139" Xm="-5.79" Ym="-3.53" size="20" service_rating="I" />
+    <Contact_id name="EE" Xi="-.267" Yi="-.010" Xm="-6.78" Ym="-0.25" size="20" service_rating="I" />
+    <Contact_id name="FF" Xi="-.237" Yi="+.122" Xm="-6.02" Ym="+3.10" size="20" service_rating="I" />
+    <Contact_id name="GG" Xi="-.147" Yi="+.223" Xm="-3.73" Ym="+5.66" size="20" service_rating="I" />
+    <Contact_id name="HH" Xi=".000" Yi="+.200" Xm=".000" Ym="+5.08" size="20" service_rating="I" />
+    <Contact_id name="JJ" Xi="+.105" Yi="+.094" Xm="+2.67" Ym="+2.39" size="20" service_rating="I" />
+    <Contact_id name="KK" Xi="+.135" Yi="-.041" Xm="+3.43" Ym="-1.04" size="20" service_rating="I" />
+    <Contact_id name="LL" Xi=".000" Yi="-.132" Xm=".000" Ym="-3.35" size="20" service_rating="I" />
+    <Contact_id name="MM" Xi="-.135" Yi="-.041" Xm="-3.43" Ym="-1.04" size="20" service_rating="I" />
+    <Contact_id name="NN" Xi="-.105" Yi="+.094" Xm="-2.67" Ym="+2.39" size="20" service_rating="I" />
+    <Contact_id name="PP" Xi=".000" Yi=".000" Xm=".000" Ym=".000" size="20" service_rating="I" />
+  </Insert_arrangement>
+</InsertArrangements>
